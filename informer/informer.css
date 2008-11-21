@@ -203,6 +203,10 @@ B - GLOBAL STYLES
 		font-size: 1.167em;
 		}
 
+.brd #brd-announcement br {
+	display: inline;
+	}
+
 .brd .main-options {
 	border-top: none;
 	margin: -1em 0 1em 0;
@@ -297,11 +301,15 @@ B - GLOBAL STYLES
 		padding-top: .4em;
 		}
 
-.brd #brd-announcement .msg-head {
-	border-bottom-style:dashed;
-	border-bottom-width:1px;
-	font-size:1.1em;
-	font-weight:bold;
+.brd #brd-announcement h1, .brd .main-extensions .ct-legend, .brd .main-hotfixes .ct-legend {
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	font-size: 1.1em;
+	font-weight: bold;
+	}
+
+.brd #brd-announcement h1 {
+	margin-bottom: 0.5em;
 	}
 
 .brd .main-pagehead .hn {
@@ -309,16 +317,14 @@ B - GLOBAL STYLES
 	}
 
 .brd .content-head {
-	border-style: solid none;
-	border-width: 1px 0 2px 0;
-	margin-top: -1px;
+	margin: 0.5em 1.417em 0;
 	}
 
 .brd .content-head .hn {
 	font-size: 1.084em;
-	border-style: none none solid none;
-	border-width: 1px;
-	padding: 0.462em 1.417em;
+	border-style: none none double none;
+	border-width: 3px;
+	padding: 0.462em 0;
 	}
 
 
@@ -340,6 +346,11 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	margin-left: 0;
 	}
 
+.brd .extension .options, .brd .hotfix .options {
+	border-top-style:dashed;
+	border-top-width:1px;
+}
+
 /* Content Containers
 -------------------------------------------------------------*/
 
@@ -352,7 +363,8 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	}
 
 .brd .ct-box li {
-	padding:0pt 0pt 0.7em 0.5em;
+	padding: 0;
+	margin: 0 0 0.7em 0;
 	}
 
 .brd .ct-set {
@@ -377,6 +389,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-group .ct-set {
 	border-style: dashed none none none;
 	margin: 0 1em;
+	padding: 0 0 0 16em;
 	}
 .brd .ct-group .group-item1 {
 	border: none;
@@ -403,21 +416,17 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 
 .brd .ct-set .ct-legend {
 	float: left;
-	margin-left: -19em;
-	width: 18em;
+	margin-left: -17em;
+	width: 16em;
 	display: inline;
 	position: relative;
-	text-align:right;
-	font-weight:bold;
+	text-align: right;
+	font-weight: bold;
 	}
 
 .brd .ct-set ul {
 	padding-left: 0;
 	list-style: none;
-	}
-.brd .ct-set ul.user-ident {
-	padding-left: 2em;
-	width: 16em;
 	}
 
 .brd .ct-box div {
@@ -426,6 +435,10 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 
 .brd .ct-box p.options {
 	float: none;
+	}
+
+.brd .ct-box .info-list {
+	padding-bottom: 0;
 	}
 
  /* User Identity
@@ -1146,15 +1159,15 @@ F - MAIN CONTENT - FORMS
 -------------------------------------------------------------*/
 
 .brd .frm-group {
-	border-top-style:dashed;
-	border-top-width:1px;
+	border-top-style: dashed;
+	border-top-width: 1px;
 	margin: 1.417em;
-	padding:1.3em 0pt 0em;
+	padding: 1.3em 0pt 0em;
 	}
 
 .brd .group1{
-	border-top:none;
-	padding-top:0;
+	border-top: none;
+	padding-top: 0;
 	}
 
 .brd .sf-box, .brd .mf-box, .brd .txt-box {
@@ -1184,9 +1197,9 @@ F - MAIN CONTENT - FORMS
 .brd .frm-buttons {
 	margin: 0.75em 1.417em 1em 1.417em;
 	position: relative;
-	border-top-style:double;
-    border-top-width:3px;
-    padding:0.8em 0pt 0.3em 18em;
+	border-top-style: double;
+	border-top-width: 3px;
+	padding: 0.8em 0pt 0.3em 18em;
 	}
 
 .brd .frm-buttons span.submit {
@@ -1281,6 +1294,7 @@ F - MAIN CONTENT - FORMS
 
 .brd .mf-box .mf-item {
 	position: relative;
+	top: -0.15em;
 	padding: 0.25em 0;
 	}
 
@@ -1294,12 +1308,12 @@ F - MAIN CONTENT - FORMS
 	position: absolute;
 	left: -17em;
 	width: 16em;
-	padding: 0.2em 1em;
+	padding: 0.3em 1em;
 	margin: 1px 0 2px 0;
 	overflow: hidden;
-	display:block;
-	text-align:right;
-	font-weight:bold;
+	display: block;
+	text-align: right;
+	font-weight: bold;
 	}
 
 .brd .mf-set legend span em {
@@ -1581,7 +1595,6 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	padding: 0 1.5em 0.5em 1em;
 	margin-top: -1px;
 	position: relative;
-	font-family: arial, helvetica, sans-serif;
 	}
 
 .brd .posthead .post-title span {
@@ -1591,7 +1604,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	}
 
 .brd .posthead .post-title a {
-	font-size: 1.167em;
+	font-size: 1em;
 	text-decoration: none;
 	font-weight: bold;
 	}
@@ -1599,7 +1612,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 .brd .posthead .post-title small,
 .brd .posthead .post-title small a {
 	font-size: 1em;
-	font-weight:normal;
+	font-weight: normal;
 	white-space: nowrap;
 	}
 
@@ -1607,7 +1620,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	position: absolute;
 	top: 0;
 	right: 0.75em;
-	height; 2.5em;
+	height: 2.5em;
 	}
 
 .brd .postbody {
@@ -1748,6 +1761,10 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	border-width: 1px;
 	margin: 0.75em 1em;
 	padding: 1em 0.75em;
+	}
+
+.brd .entry-content .codebox code {
+	font-family: monospace;
 	}
 
 .brd .entry-content blockquote {
@@ -1963,7 +1980,7 @@ H - MAIN CONTENT - ODDMENTS
 	}
 
 #brd-admin-reports .frm-buttons {
-	margin-left: 3.5em;
+	margin-left: 4em;
 	margin-top: 0;
 	}
 

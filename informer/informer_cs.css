@@ -111,6 +111,10 @@ body {
 	background: #F1F1F1;
 	}
 
+.brd .posthead .post-title small {
+	color: #999;
+	}
+
 .brd .online .userstatus span {
 	border-color: #517CA1;
 	}
@@ -123,7 +127,7 @@ body {
 	background: #FEFFE6;
 	}
 
-.brd .admin-page .ct-set .ct-box {
+.brd .admin-page .ct-set .ct-box, .brd .report {
 	background: #F4F9FD;
 	}
 
@@ -136,11 +140,15 @@ body {
 	border-color: #d9e0e3;
 	}
 
-.brd .main-content .info-set .info-box {
-	background: none;
+.brd .main-content .info-box {
+	background: #FFFFE1;
 	}
 
-.brd .main-content .info-box {
+.brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
+	background: #F4F9FD;
+	}
+
+.brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
 	background: #FFFFE1;
 	}
 
@@ -153,16 +161,17 @@ body {
 	border-color: #E6D190;
 	}
 
-.brd ul.info-list li {
+.brd ul.info-list li,
+.brd ul.error-list li {
 	color: #6A97BF;
 	}
 
-.brd ul.info-list li span {
+.brd ul.info-list li span,
+.brd ul.error-list li span {
 	color: #666;
 	}
 
 .brd ul li strong {
-	font-weight: normal;
 	color: #333;
 	}
 
@@ -174,11 +183,15 @@ body {
 	color: #1F537B;
 	}
 
+.brd .error-box .hn {
+	color: #333;
+	}
+
 .brd .help-box {
 	background: #f4f4f4;
 	}
 
-.brd .frm-buttons {
+.brd .frm-buttons, .brd .extension .options, .brd .hotfix .options {
 	border-color: #DBE0E4;
 	}
 
@@ -188,7 +201,7 @@ body {
 	}
 
 .brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-legend * {
-	color: #1F537B;
+	color: #357;
 	}
 
 .brd .paging * {
@@ -206,7 +219,11 @@ body {
 	}
 
 #brd-announcement .userbox {
-	background:#F4F9FD none repeat scroll 0 0;
+	background: #F4F9FD none repeat scroll 0 0;
+	}
+
+.brd .main-content .main-item .hn .posted-mark {
+	color: #99C;
 	}
 
 /* Menus
@@ -326,7 +343,7 @@ body {
 	border-color: #1f537b;
 	}
 
-.brd #brd-announcement .msg-head {
+.brd #brd-announcement h1 {
 	border-color: #BBBBBB;
 	}
 
@@ -342,7 +359,11 @@ body {
 	background: #F4F4F4;
 	}
 
-.brd .content-head, .brd th {
+.brd .content-head {
+
+	}
+
+.brd th {
 	background: #EAEEF5;
 	border-bottom-color: #fff;
 	border-top-color: #ddd;
@@ -354,16 +375,18 @@ body {
 	}
 
 .brd .content-head .hn {
-	border-bottom-color: #ddd;
+	border-color: #DBE0E4;
+	color: #666;
 	}
 
-.brd .main-head a:link, .brd .main-head a:visited {
-	color: #ddd;
+.brd .main-head a:link, .brd .main-head a:visited,
+.brd .main-foot .options a:link, .brd .main-foot .options a:visited {
+	color: #ccc;
 	}
 
-.brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus {
+.brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
+.brd .main-foot .options a:hover, .brd .main-foot .options a:active, .brd .main-foot .options a:focus {
 	color: #fff;
-	text-decoration: underline;
 	}
 
 .brd th {
