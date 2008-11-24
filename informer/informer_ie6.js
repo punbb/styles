@@ -4,7 +4,7 @@ window.attachEvent('onresize', minmax);
 /* --------------------------------------- */
 function minmax()
 {
-	var dew 		= document.documentElement.clientWidth;
+	var dew 		= document.documentElement.clientWidth-60;
 	var bdw 		= document.body.clientWidth;
 	var minw 	= 700;
 	var minstr 	= minw + "px";
