@@ -50,7 +50,7 @@ body {
 	border-color: #DDE4EB;
 	}
 
-.brd .crumbs {
+.brd .crumbs, #brd-visit {
 	background: #fff;
 	border-color: #fff;
 	}
@@ -71,18 +71,31 @@ body {
 	}
 
 .brd .main-content .sticky {
-	background: #F2F4FA;
+	background: #EDF1F6;
+	}
+
+.brd .main-content .sticky .even {
+/*	background: #EEF1F7;*/
+	}
+
+.brd .main-content .closed {
+	background: #E8E8E8;
+	}
+
+.brd .main-content .sticky .even {
+	background: #EEF1F7;
 	}
 
 .brd .main-content .main-item .hn .item-status em.sticky {
- 	color: #314B60;
- 	font-weight: bold;
- 	}
+	color: #314B60;
+	background: transparent;
+	font-weight: bold;
+	}
 
 .brd .main-content .main-item .hn .item-status em.closed {
- 	color: #314B60;
- 	font-weight: bold;
- 	}
+	color: #314B60;
+	font-weight: bold;
+	}
 
 .brd .post * {
 	border-color: #DDE4EB
@@ -230,16 +243,9 @@ body {
 ----------------------------------------------------------------*/
 
 #brd-navlinks {
-	position: relative;
-	margin: 0 -30px;
-	padding: 0;
 	background: #7b94c8 url(bg_navlinks_bt1.gif) repeat-x left bottom;
-	border: 0;
 	color: #fff;
 	}
-	#brd-navlinks .wrp{
-		padding: 0 30px;
-		}
 
 #brd-navlinks a:link, #brd-navlinks a:visited {
 	color: #ddd;
@@ -419,7 +425,7 @@ body {
 	border-color: #ACACAC #979797 #898989 #7A7A7A
 	}
 
-.brd .main-content .sticky .closed {
+.brd .main-content .sticky .closed .icon {
 	border-color: #D7E5F3 #C3CFDC #898989 #7A7A7A
 	}
 
@@ -430,4 +436,11 @@ body {
 
 .brd .checklist .checklist-item label:hover {
 	background: #EDF1F5;
+	}
+
+#brd-about {
+	background: #7b94c8 url(bg_about_top1.gif) repeat-x left top;
+	}
+#brd-about p, #brd-about p * {
+	color: #EAEAEA;
 	}

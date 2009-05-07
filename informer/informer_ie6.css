@@ -27,10 +27,19 @@ IE6 - FIXES
 .brd span.fld-input,
 .brd .main-subhead .hn,
 .brd .post,
+.brd .posthead,
 .brd .postbody,
 .brd .post-entry,
 .brd .postfoot .post-options {
 	zoom: 1;
+	}
+
+.brd .ct-box ol, .brd .ct-box ol * {
+	zoom: normal;
+	}
+
+.brd .postfoot .post-contacts {
+	position: absolute;
 	}
 
 /* Forms
@@ -58,9 +67,6 @@ IE6 - FIXES
 
 #brd-admin-censoring #info-censored-intro, #brd-admin-ranks #info-ranks-intro { margin-bottom: 3em; }
 
-/* Adding space between topic subject and its' info */
-#brd-viewforum .item-nav, .main-forum .item-subject .item-starter { margin-left: 1ex; }
-
 .important strong { margin-right: 1ex; }
 
 #brd-stats .st-users { margin-bottom: -1ex; }
@@ -80,5 +86,5 @@ IE6 - FIXES
 .brd #brd-index .main-head { position: relative; }
 
 .brd .main-content .main-item .hn .posted-mark {
- 	left: 0.2em;
+	left: 0.2em;
 	}

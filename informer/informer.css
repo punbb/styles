@@ -37,7 +37,7 @@ body {
 	}
 
 .brd-page {
-	font: 75%/1.5em Tahoma, Verdana, Helvetica, Arial, sans-serif;
+	font: 87.5%/1.5em Tahoma, "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
 	}
 
 .brd h1,.brd h2,.brd h3, .brd h4, .brd h5, .brd h6 {
@@ -48,7 +48,7 @@ body {
 .brd samp, .brd code, .brd pre, .brd option, .brd optgroup,
 .brd input, .brd select, .brd textarea, .brd td, .brd th {
 	font-size: 1em;
-	font-family: Tahoma, Verdana,Helvetica,Arial,sans-serif;
+	font-family: Tahoma, Verdana, Helvetica,Arial,sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	}
@@ -85,7 +85,7 @@ body {
 	line-height: 0.0;
 	overflow:hidden;
 	visibility: hidden;
- 	clear: both;
+	clear: both;
 	}
 
 /* Hidden items
@@ -114,13 +114,13 @@ body {
 .brd .main-head .hn small,
 .brd .entry-title,
 .brd .menu-page .main-head {
- 	font-size: 0;
- 	left: -999em;
- 	text-indent: -999em;
- 	position:absolute;
- 	line-height: 0em;
- 	visibility: hidden;
- 	}
+	font-size: 0;
+	left: -999em;
+	text-indent: -999em;
+	position:absolute;
+	line-height: 0em;
+	visibility: hidden;
+	}
 
 
 /*************************************************************
@@ -170,15 +170,14 @@ B - GLOBAL STYLES
 	}
 
 .brd .gen-content {
-	padding: 0 1.7em;
+	padding: 0 1.214em;
 	}
 
 #brd-about {
 	position: relative;
 	clear: both;
-	background: #7b94c8 url(bg_about_top1.gif) repeat-x left top;
 	border: 0;
-	margin: 3.5em -30px 0;
+	margin: 0.5em -30px 0;
 	padding: 0;
 	}
 	#brd-about .wrp{
@@ -191,23 +190,18 @@ B - GLOBAL STYLES
 	margin-bottom: 1em;
 	}
 #brd-visit{
-	border: 0;
-	font-size: 1.084em;
 	line-height: .3;
 	padding-top: .5em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	}
-	#brd-visit strong {
-		font-weight: normal;
-		}
 
 .brd #brd-announcement {
-	padding: 0.6em 1.9em 0.8em;
-	margin: 1em 0;
+	padding-top: 0.4em;
+	padding-bottom: 0.8em;
+	margin: 0.5em 0;
 	}
 	.brd #brd-announcement p{
 		padding: 0;
-		font-size: 1.084em;
 		}
 
 .brd #brd-announcement br {
@@ -249,16 +243,14 @@ B - GLOBAL STYLES
 	border-bottom-width: 1px;
 	}
 
-.brd .main-head {
+.brd .main-head, .brd .main-foot {
 	border-style: solid;
 	border-width: 1px;
-	padding: 0 1.417em;
+	padding: 0 1.286em;
 	}
 
-.brd .main-head .hn, .brd .main-foot .hn{
-	font-size: 1.3em;
+.brd .main-head .hn, .brd .main-foot .hn {
 	padding: 0.45em 0;
-	line-height: 1;
 	padding-right: 10em;
 	font-weight: bold;
 	}
@@ -270,7 +262,6 @@ B - GLOBAL STYLES
 .brd h2.main-subhead {
 	border-style: solid;
 	border-width: 1px;
-	padding: 0 1.417em;
 	font-size: 1.084em;
 	padding: 0.462em 10em 0.426em 1.417em;
 	}
@@ -294,9 +285,7 @@ B - GLOBAL STYLES
 	position: relative;
 	}
 
-.brd .main-head,
-.brd .main-foot {
-	padding: 0 2em;
+.brd .main-head, .brd .main-foot {
 	border-style: none;
 	border-width: 1px;
 	}
@@ -354,9 +343,9 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	}
 
 .brd .extension .options, .brd .hotfix .options {
-	border-top-style:dashed;
-	border-top-width:1px;
-}
+	border-top-style: dashed;
+	border-top-width: 1px;
+	}
 
 /* Content Containers
 -------------------------------------------------------------*/
@@ -591,9 +580,19 @@ D - COMMON INTERFACE ELEMENTS
 /* Primary navigation
 -------------------------------------------------------------*/
 
+#brd-navlinks {
+	position: relative;
+	margin: 0 -30px;
+	padding: 0;
+	border: 0;
+	}
+	#brd-navlinks .wrp{
+		padding: 0 30px;
+		}
+
 #brd-navlinks ul {
 	margin: 0;
-	padding: .2em 0 0 22px;
+	padding: 0;
 	list-style: none;
 	float: left;
 	}
@@ -605,12 +604,10 @@ D - COMMON INTERFACE ELEMENTS
 
 #brd-navlinks li a {
 	float: left;
-	padding: 0 1.5em .05em;
+	padding: 0 1.3em .05em;
 	line-height: 2;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 1px;
 	}
 	#brd-navlinks li a:hover,
 	#brd-navlinks .isactive a{
@@ -673,12 +670,10 @@ D - COMMON INTERFACE ELEMENTS
 
 #brd-pagepost-end {
 	border-top: none;
-	padding-left: 1.9em;
 	}
 
 #brd-pagepost-top {
 	border-bottom: none;
-	padding-left: 1.9em;
 	}
 
 .brd .paging {
@@ -728,8 +723,6 @@ D - COMMON INTERFACE ELEMENTS
 
 .brd .crumbs {
 	margin: 0.5em 0em;
-	padding: 0em 1.5em 0 1.8em;
-	font-size: 1.084em;
 	}
 
 /* Statistics
@@ -750,20 +743,20 @@ D - COMMON INTERFACE ELEMENTS
 	}
 
 #brd-stats ul li.st-users {
- 	float: left;
- 	clear: both;
- 	white-space: nowrap;
- 	}
+	float: left;
+	clear: both;
+	white-space: nowrap;
+	}
 
  #brd-stats ul li.st-activity {
- 	text-align: right;
- 	display: block;
- 	white-space: nowrap;
- 	}
+	text-align: right;
+	display: block;
+	white-space: nowrap;
+	}
 
  #brd-stats li  strong {
- 	font-weight: bold;
- 	}
+	font-weight: bold;
+	}
 
 #brd-online {
 	position: relative;
@@ -781,47 +774,39 @@ D - COMMON INTERFACE ELEMENTS
 	}
 
  #brd-online .hn {
- 	float: left;
- 	margin-right: 0.5em;
- 	}
+	float: left;
+	margin-right: 0.5em;
+	}
 
 /* Footer
 -------------------------------------------------------------*/
 
 #qjump {
-	position: absolute;
-	right: 0;
-	top: -5.5em;
-	padding: 1em;
-	background: #f4f4f4;
-	border: 1px solid #dcdcdc;
+	float: left;
+	padding: 0.5em 1.286em 0 1em;
 	}
-
+/*
 #brd-index #brd-about {
 	margin-top: 0;
 	}
-	#brd-index #qjump{
-		margin-top: -2.5em;
-		}
+
 #brd-viewtopic #brd-about{
 	margin-top: 7em;
 	}
 	#brd-viewtopic #qjump{
 		top: -5.7em;
 		}
-	
+	*/
 #qjump div, #qjump label {
 	padding: 0;
 	border: none;
 	}
 
-#copyright {
-	width: 100%;
-	text-align: center;
-	color: #eaeaea;
-	padding: .3em 0 .4em;
+#brd-about p {
+	text-align: right;
+	padding: .3em 1.286em;
 	}
-	#copyright a{
+	#brd-about p a{
 		color: #fff;
 		font-weight: normal;
 		}
@@ -830,6 +815,10 @@ D - COMMON INTERFACE ELEMENTS
 	text-align: center;
 	font-size: 0.9em;
 	}
+
+#extensions-used {
+	border-bottom: 1px dotted;
+}
 
 /* Main and Content Options
 -------------------------------------------------------------*/
@@ -902,7 +891,10 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	padding: 0.5em 0;
 	white-space: nowrap;
 	font-weight: normal;
-	text-transform: capitalize;
+	}
+
+.brd .item-summary strong:first-letter {
+	text-transform: uppercase;
 	}
 
 .brd .item-summary .subject-title {
@@ -955,7 +947,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	}
 
 .brd .main-content .even {
-	background: #f5f5f5;
+	background: #f6f6f6;
 	}
 
 .brd .main-content .main-first-item {
@@ -971,27 +963,27 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 
 .brd .main-content .main-item p,
 .brd .main-content .main-item .hn {
- 	padding: 0;
- 	}
+	padding: 0;
+	}
 
 .brd .main-content .main-item .hn .item-status {
- 	font-weight:normal;
- 	}
+	font-weight:normal;
+	}
 
 .brd .main-content .main-item .hn .item-status em {
- 	font-style:normal;
- 	}
+	font-style:normal;
+	}
 
 .brd .main-content .main-item .item-subject,
 .brd .main-content .main-item li {
- 	float: left;
- 	border-left-style: solid;
- 	border-left-width: 1px;
- 	margin: 0 -2px -9.7em 0;
- 	position: relative;
- 	padding-top: 0.6em;
- 	padding-bottom: 10.4em;
- 	}
+	float: left;
+	border-left-style: solid;
+	border-left-width: 1px;
+	margin: 0 -2px -9.7em 0;
+	position: relative;
+	padding-top: 0.6em;
+	padding-bottom: 10.4em;
+	}
 .brd .main-content .odd li {
 	border-left-color: #eef1f2;
 	}
@@ -1003,25 +995,26 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	}
 
 .brd .main-content .main-item .item-subject {
- 	width: 100%;
-  	}
+	overflow: hidden;
+	width: 100%;
+	}
 
 .brd .main-content .main-item li.info-topics,
 .brd .main-content .main-item li.info-forum,
 .brd .main-content .main-item li.info-posts,
 .brd .main-content .main-item li.info-views,
 .brd .main-content .main-item li.info-replies {
- 	width: 7em;
- 	text-align:center;
- 	}
+	width: 7em;
+	text-align: center;
+	}
 
 .brd .main-content .main-item li.info-forum {
- 	width: 20em;
- 	}
+	width: 20em;
+	}
 
 .brd .main-content .main-item li.info-lastpost {
-  	width: 20em;
-  	}
+	width: 20em;
+	}
 
 .brd .main-content .main-item li.info-lastpost cite {
 	overflow: hidden;
@@ -1054,36 +1047,44 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	}
 
 .brd .forum-noview .main-item {
-	padding-right: 48em;
+	padding-right: 28em;
 	}
 
 .brd .forum-noview .main-item ul {
+	width: 27em;
+	right: -28em;
+	margin-left: -27em;
+	}
+
+.brd .forum-forums .main-item {
+	padding-right: 48em;
+	}
+
+.brd .forum-forums .main-item ul {
 	width: 47em;
 	right: -48em;
 	margin-left: -47em;
 	}
 
 .brd .main-content .main-item .item-subject span.modlist {
- 	display: block;
-	color: #5f5e5e;
-	padding: .2em 0 .1em;
- 	}
+	display: block;
+	}
 
 .brd .main-content .main-item .hn strong {
-  	font-size: 1em;
-  	}
+	font-size: 1em;
+	}
 
 .brd .main-content .main-item .hn strong span {
 	font-weight: normal;
 	}
 
- #brd-main .main-content .main-item .hn a {
+/* #brd-main .main-content .main-item .hn a {
 	font-size: 1.333em;
- 	}
+ 	}*/
  #brd-index .main-content .main-item .hn a span {
 	font-size: 1em;
 	font-weight: bold;
- 	}
+	}
  #brd-index .main-content .main-item p {
 	font-size: 1.084em;
  	}
@@ -1106,41 +1107,43 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	}
 
 .brd .main-content .main-item .item-subject .hn {
-	margin: 0 0 0 1.6em;
- 	}
-	.item-starter{
+	font-size: 1.072em;
+	margin: 0 0 0 1.333em;
+	}
+/*	.item-starter{
 		padding-left: 1.6em;
-		}
+		}*/
 	* html .item-starter{
 		padding-left: 1.1em;
 		}
 .brd .main-content .main-item .item-subject p {
 	margin: 0 0 0 1.4em;
 	padding-top: .2em;
- 	}
+	}
 
 .brd .main-content .main-item li.info-lastpost cite,
-.brd .main-content .main-item li.info-lastpost span {
- 	display: block;
- 	padding: 0 1em;
- 	font-style: normal;
- 	font-weight: normal;
- 	}
+.brd .main-content .main-item li.info-lastpost span,
+.brd .main-content .main-item li.info-forum a {
+	display: block;
+	padding: 0 1em;
+	font-style: normal;
+	font-weight: normal;
+	}
 
 .brd .main-content .main-item li.info-lastpost strong {
- 	padding: 0 0 0 1em;
- 	font-style: normal;
- 	font-weight: normal;
- 	}
+	padding: 0 0 0 1em;
+	font-style: normal;
+	font-weight: normal;
+	}
 
 .brd .main-content .main-item li.info-select {
- 	position: absolute;
- 	right: 0;
- 	top: 0;
- 	padding: 0.3em;
- 	border-style: none none solid solid;
- 	border-width: 1px;
- 	}
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0.3em;
+	border-style: none none solid solid;
+	border-width: 1px;
+	}
 
 .brd .main-content .main-item .icon {
  	height: 19px;
@@ -1153,12 +1156,12 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
  	}
 
 .brd .main-content .main-item .hn .posted-mark {
- 	position: absolute;
- 	font-size: 2em;
- 	width: 1em;
- 	left: -0.5em;
- 	top: 0;
- 	}
+	position: absolute;
+	font-size: 2em;
+	width: 1em;
+	left: -0.5em;
+	top: 0;
+	}
 
 /*************************************************************
 F - MAIN CONTENT - FORMS
@@ -1303,7 +1306,7 @@ F - MAIN CONTENT - FORMS
 
 .brd .mf-box .mf-item {
 	position: relative;
-	top: -0.15em;
+	top: -0.166em;
 	padding: 0.25em 0;
 	}
 
@@ -1562,7 +1565,6 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	margin-left: 18em;
 	border-style: none none none solid;
 	border-width: 1px;
-	zoom: 1;
 	}
 
 .brd .posthead .hn {
@@ -1700,7 +1702,9 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	border-left-width: 0.7em;
 	text-indent: 0.5em;
 	}
-
+.brd .postbody .author-info li span strong {
+	font-weight: normal;
+}
 .brd .online .author-ident .userstatus span {
 	font-weight: bold;
 	}
@@ -1772,7 +1776,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	padding: 1em 0.75em;
 	}
 
-.brd .entry-content .codebox code {
+.brd .entry-content .codebox code, #brd-debug table .tcl, #brd-debug table .tcr {
 	font-family: monospace;
 	}
 
@@ -1855,12 +1859,12 @@ H - MAIN TABLES
 	text-align: center;
 	}
 
-#brd-debug  table .tc0 {
-	white-space:normal;
-	width: 15%;
+#brd-debug  table .tc1 {
+	white-space: normal;
+	width: 10%;
 	}
 
-#brd-debug table .tc1 {
+#brd-debug table .tcr {
 	white-space: normal;
 	width: 90%;
 	}
@@ -2028,11 +2032,3 @@ H - MAIN CONTENT - ODDMENTS
 	margin-bottom: 0.5em;
 	color: #294F6E
 	}
-
-#extensions-used{
-	text-align: center;
-	color: #eaeaea;
-	}
-	#extensions-used a{
-		color: #eaeaea;
-		}
