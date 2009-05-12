@@ -189,11 +189,14 @@ B - GLOBAL STYLES
 #brd-index #brd-announcement {
 	margin-bottom: 1em;
 	}
-#brd-visit{
-	line-height: .3;
+#brd-visit {
 	padding-top: .5em;
 	margin-bottom: 1em;
 	}
+	#brd-visit * {
+		padding-top: 0;
+		padding-bottom: 0;
+		}
 
 .brd #brd-announcement {
 	padding-top: 0.4em;
@@ -237,8 +240,8 @@ B - GLOBAL STYLES
 -------------------------------------------------------------*/
 
 .brd th {
-	font-size: 1.084em;
-	padding: 0.462em 1.417em;
+	font-size: 1.072em;
+	padding: 0.462em 1.214em;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	}
@@ -262,8 +265,8 @@ B - GLOBAL STYLES
 .brd h2.main-subhead {
 	border-style: solid;
 	border-width: 1px;
-	font-size: 1.084em;
-	padding: 0.462em 10em 0.426em 1.417em;
+	font-size: 1.072em;
+	padding: 0.462em 10em 0.426em 1.214em;
 	}
 
 .brd .column-title {
@@ -312,11 +315,11 @@ B - GLOBAL STYLES
 	}
 
 .brd .content-head {
-	margin: 0.5em 1.417em 0;
+	margin: 0.5em 1.214em 0;
 	}
 
 .brd .content-head .hn {
-	font-size: 1.084em;
+	font-size: 1.072em;
 	border-style: none none double none;
 	border-width: 3px;
 	padding: 0.462em 0;
@@ -352,7 +355,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-box {
 	border-style: solid;
 	border-width: 1px;
-	margin: 1.286em;
+	margin: 1.214em;
 	padding: 0.5em 1em;
 	position: relative;
 	}
@@ -365,7 +368,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-set {
 	border-style: solid;
 	border-width: 1px;
-	margin: 1.417em;
+	margin: 1.214em;
 	padding: 0 0 0 17em;
 	position: relative;
 	}
@@ -373,7 +376,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-group {
 	border-style: solid;
 	border-width: 1px;
-	margin: 1.286em;
+	margin: 1.214em;
 	}
 
 .brd .frm-group .ct-set {
@@ -478,7 +481,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 -------------------------------------------------------------*/
 
 .brd .main-message {
-	padding: 0.5em 1.417em;
+	padding: 0.5em 1.214em;
 	}
 
 .brd .main-message p span {
@@ -513,7 +516,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .main-menu a, .brd .admin-menu a {
 	float: left;
 	position: relative;
-	padding: 0.3em 1.417em 0.4em 1.417em;
+	padding: 0.417em 1.417em;
 	}
 
 .brd .main-menu li.active a, .brd .admin-menu li.active a {
@@ -552,8 +555,8 @@ D - COMMON INTERFACE ELEMENTS
 -------------------------------------------------------------*/
 
 #brd-head {
-	padding: 2.5em 1.7em 0 320px;
-	background: url(logo.png) no-repeat 32px bottom;
+	padding: 2.5em 1.214em 0 320px;
+	background: url(logo.png) no-repeat 1.214em bottom;
 	}
 
 #brd-title {
@@ -568,7 +571,7 @@ D - COMMON INTERFACE ELEMENTS
 	}
 
 #brd-desc {
-	font-size: 1.084em;
+	font-size: 1.072em;
 	padding-top: 0;
 	padding-bottom: 0;
 	text-align: right;
@@ -603,8 +606,8 @@ D - COMMON INTERFACE ELEMENTS
 
 #brd-navlinks li a {
 	float: left;
-	padding: 0 1.417em .05em;
-	line-height: 2.333;
+	padding: 0.35em 1.417em 0.35em;
+/*	line-height: 2.333;*/
 	font-size: 85.7%;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -619,7 +622,7 @@ D - COMMON INTERFACE ELEMENTS
 		}
 
 #brd-admod {
-	padding: .3em 30px .3em 0;
+	padding: .3em 1.286em .3em 0;
 	float: right;
 	text-align: right;
 	}
@@ -665,7 +668,6 @@ D - COMMON INTERFACE ELEMENTS
 #brd-visit #visit-links {
 	text-align: right;
 	float: right;
-	padding-top: .2em;
 	}
 
 /* Paging and posting
@@ -705,7 +707,7 @@ D - COMMON INTERFACE ELEMENTS
 	}
 
 .brd .posting .newpost {
-	font-size: 1.084em;
+	font-size: 1.072em;
 	font-weight: bold;
 	}
 
@@ -854,7 +856,7 @@ D - COMMON INTERFACE ELEMENTS
 .brd p.content-options, .brd .ct-options {
 	float: right;
 	margin-top: -2.4em;
-	padding: 0.5em 1.417em;
+	padding: 0.5em 1.214em;
 	position: relative;
 	}
 
@@ -901,7 +903,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	}
 
 .brd .item-summary .subject-title {
-	padding-left: 1.95em;
+	padding-left: 1.286em;
 	}
 
 .brd .item-summary .info-topics,
@@ -1021,12 +1023,12 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 
 .brd .main-content .main-item li.info-lastpost cite {
 	overflow: hidden;
-	font-size: 1.084em;
+	font-size: 1.072em;
 	}
 
 .brd .main-item li strong {
 	font-weight: normal;
-	font-size: 1.084em;
+	font-size: 1.072em;
 	color: #636161;
 	}
 
@@ -1036,7 +1038,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 
 .brd .main-content .main-item {
 	padding-right: 35em;
-	padding-left: 3.75em;
+	padding-left: 2.571em;
 	}
 
 .brd .main-content .main-item .hn {
@@ -1089,7 +1091,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	font-weight: bold;
 	}
  #brd-index .main-content .main-item p {
-	font-size: 1.084em;
+	font-size: 1.072em;
  	}
 #brd-index .main-content .main-item .hn small {
 	font-size: 1em;
@@ -1111,7 +1113,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 
 .brd .main-content .main-item .item-subject .hn {
 	font-size: 1.072em;
-	margin: 0 0 0 1.333em;
+	margin: 0 0 0 1.266em;
 	}
 	* html .item-starter{
 		padding-left: 1.1em;
@@ -1146,14 +1148,14 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	}
 
 .brd .main-content .main-item .icon {
- 	height: 19px;
- 	width: 19px;
+	height: 19px;
+	width: 19px;
 	overflow: hidden;
- 	float: left;
- 	margin-top: 0.58em;
- 	margin-left: -1.9em;
+	float: left;
+	margin-top: 0.643em;
+	margin-left: -1.286em;
 	background: url(bg_icon_new.gif) no-repeat;
- 	}
+	}
 
 .brd .main-content .main-item .hn .posted-mark {
 	position: absolute;
@@ -1174,7 +1176,7 @@ F - MAIN CONTENT - FORMS
 	border-top-style: dashed;
 	border-top-width: 1px;
 	margin: 1.417em;
-	padding: 1.3em 0pt 0em;
+	padding: 1.3em 0 0;
 	}
 
 .brd .group1{
@@ -1203,11 +1205,11 @@ F - MAIN CONTENT - FORMS
 	}
 
 .brd .text input, .brd .select select {
-	font-size: 1.084em;
+	font-size: 1.072em;
 	}
 
 .brd .frm-buttons {
-	margin: 0.75em 1.417em 1em 1.417em;
+	margin: 0.75em 1.214em 1em;
 	position: relative;
 	border-top-style: double;
 	border-top-width: 3px;
@@ -1222,7 +1224,7 @@ F - MAIN CONTENT - FORMS
 	overflow: visible;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	font-size: 1.084em;
+	font-size: 1.072em;
 	}
 
 .brd .button-set span.submit {
@@ -1568,7 +1570,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	}
 
 .brd .posthead .hn {
-	padding-right: 1.5em;
+	padding-right: 1.214em;
 	padding-left: 1em;
 	border-style: none none dashed none;
 	border-width: 1px;
@@ -1585,7 +1587,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 .brd .post .posthead .post-byline {
 	float: left;
 	width: 15.5em;
-	padding: 0.5em 1em 0.5em 1.9em;
+	padding: 0.5em 1em 0.5em 1.214em;
 	margin-left: -19em;
 	margin-top: -0.5em;
 	position: relative;
@@ -1662,7 +1664,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	left: -1px;
 	position: relative;
 	display: inline;
-	padding: 0 1em 0.5em 1.9em;
+	padding: 0 1em 0.5em 1.214em;
 	overflow: hidden;
 	margin-top: -1em;
 	}
@@ -1713,14 +1715,14 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	float: left;
 	margin-left: -18em;
 	width: 15.5em;
-	padding: 0.5em 1em 0.5em 1.9em;
+	padding: 0.5em 1em 0.5em 1.214em;
 	position: relative;
 	display: inline;
 	left: -1px;
 	}
 
 .brd .postfoot .post-actions {
-	padding: 0.5em 1.9em 0.5em 1em;
+	padding: 0.5em 1.214em 0.5em 1em;
 	text-align: right;
 	display: block;
 	float: right;
@@ -1741,7 +1743,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	padding-bottom: 1em;
 	overflow: hidden;
 	width: 100%;
-	font-size: 1.084em;
+	font-size: 1.072em;
 	}
 
 .brd .entry-content ol {
@@ -1760,7 +1762,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 
 .brd .entry-content h5, .brd .entry-content h5 * {
 	font-weight: bold;
-	font-size: 1.084em;
+	font-size: 1.072em;
 	padding: 0.5em 0;
 	}
 
@@ -1922,13 +1924,13 @@ H - MAIN TABLES
 -------------------------------------------------------------*/
 
 .brd .main-content th {
-	font-size: 1.084em;
-	padding: 0.462em 1.417em;
+	font-size: 1.072em;
+	padding: 0.4em 1.133em;
 	font-weight: normal;
 	}
 
 .brd table td {
-	padding: 0.5em 1.417em;
+	padding: 0.5em 1.214em;
 	border-width: 1px;
 	border-style: solid none none solid;
 	}
@@ -1970,7 +1972,7 @@ H - MAIN CONTENT - ODDMENTS
 
 .brd .report h3 cite {
 	font-style: normal;
-	font-size: 1.084em;
+	font-size: 1.072em;
 	font-weight: bold;
 	}
 
@@ -2018,7 +2020,7 @@ H - MAIN CONTENT - ODDMENTS
 
 .brd .help-box code {
 	font-family: courier;
-	font-size: 1.084em;
+	font-size: 1.072em;
 	}
 
 .brd .help-box .entry-content {
