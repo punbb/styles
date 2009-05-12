@@ -141,7 +141,7 @@ body {
 	}
 
 .brd .admin-page .ct-set .ct-box, .brd .report {
-	background: #F4F9FD;
+	background: #F7F7F7;
 	}
 
 .brd .admin-page .warn-set .warn-box {
@@ -277,7 +277,7 @@ body {
 	border-right-color: #1A4566;
 	}
 
-.brd .main-menu li, .brd .admin-menu li {
+.brd .main-menu li, .brd .admin-menu li, #brd-navlinks li {
 	border-left-color: #4966a5;
 	border-right-color: #3c548a;
 	}

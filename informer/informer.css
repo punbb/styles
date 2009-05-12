@@ -280,8 +280,7 @@ B - GLOBAL STYLES
 	}
 
 .brd .main-subhead .hn {
-	font-size: 1.084em;
-	padding: 0.462em 1.7em;
+	padding: 0.462em 1.214em;
 	position: relative;
 	}
 
@@ -353,7 +352,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-box {
 	border-style: solid;
 	border-width: 1px;
-	margin: 1.417em;
+	margin: 1.286em;
 	padding: 0.5em 1em;
 	position: relative;
 	}
@@ -374,7 +373,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-group {
 	border-style: solid;
 	border-width: 1px;
-	margin: 1.417em;
+	margin: 1.286em;
 	}
 
 .brd .frm-group .ct-set {
@@ -492,7 +491,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 
 .brd .main-menu, .brd .admin-menu {
 	border: 0;
-	padding: 0.2em 0 0.2em .2em;
+	padding: 0.072em 0 0.072em 0.072em;
 	}
 
 .brd .main-menu ul, .brd .admin-menu ul {
@@ -502,21 +501,19 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	}
 
 .brd .main-menu li, .brd .admin-menu li {
-	font-size: 1em;
+	font-size: 0.857em;
 	float: left;
 	display: inline;
 	border-style: none solid;
 	border-width: 0 1px 0 1px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 	padding-right: 1px;
 	}
 
 .brd .main-menu a, .brd .admin-menu a {
 	float: left;
 	position: relative;
-	padding: 0.3em 0.75em 0.4em 0.75em;
-	letter-spacing: 1px;
+	padding: 0.3em 1.417em 0.4em 1.417em;
 	}
 
 .brd .main-menu li.active a, .brd .admin-menu li.active a {
@@ -534,7 +531,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 
 .brd .admin-submenu {
 	border-style: solid;
-	border-width: 0px 1px 0px 1px;
+	border-width: 0 1px;
 	}
 
 .brd .admin-submenu ul {
@@ -599,13 +596,16 @@ D - COMMON INTERFACE ELEMENTS
 
 #brd-navlinks li {
 	float: left;
-	margin-right: 1px;
+	padding-right: 1px;
+	border-width: 0 1px;
+	border-style: solid;
 	}
 
 #brd-navlinks li a {
 	float: left;
-	padding: 0 1.3em .05em;
-	line-height: 2;
+	padding: 0 1.417em .05em;
+	line-height: 2.333;
+	font-size: 85.7%;
 	text-decoration: none;
 	text-transform: uppercase;
 	}
@@ -613,6 +613,9 @@ D - COMMON INTERFACE ELEMENTS
 	#brd-navlinks .isactive a{
 		background-color: #365085;
 		text-decoration: none;
+		}
+	#brd-navlinks .isactive a{
+		font-weight: bold;
 		}
 
 #brd-admod {
@@ -783,7 +786,7 @@ D - COMMON INTERFACE ELEMENTS
 
 #qjump {
 	float: left;
-	padding: 0.5em 1.286em 0 1em;
+	padding: 0.5em 0.5em 0 1.286em;
 	}
 /*
 #brd-index #brd-about {
@@ -1110,9 +1113,6 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	font-size: 1.072em;
 	margin: 0 0 0 1.333em;
 	}
-/*	.item-starter{
-		padding-left: 1.6em;
-		}*/
 	* html .item-starter{
 		padding-left: 1.1em;
 		}
