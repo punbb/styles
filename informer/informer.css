@@ -177,7 +177,7 @@ B - GLOBAL STYLES
 	position: relative;
 	clear: both;
 	border: 0;
-	margin: 0.5em -30px 0;
+	margin: 0 -30px;
 	padding: 0;
 	}
 	#brd-about .wrp{
@@ -733,17 +733,22 @@ D - COMMON INTERFACE ELEMENTS
 /* Statistics
 -------------------------------------------------------------*/
 
-#brd-stats {
-	width: 65%;
+#brd-stats, #brd-online {
+	margin-left: 3.929em;
+	margin-right: 3.929em;
+	padding-left: 0;
+	padding-right: 0;
 	border: 0;
+}
+
+#brd-stats {
 	margin-top: 3em;
-	padding: 0 0 0 5.5em;
 	}
 
 #brd-stats ul {
 	list-style: none;
 	padding-left: 0;
-	font-size: 1.1em;
+	font-size: 1.072em;
 	line-height: 1.2;
 	}
 
@@ -753,23 +758,22 @@ D - COMMON INTERFACE ELEMENTS
 	white-space: nowrap;
 	}
 
- #brd-stats ul li.st-activity {
+#brd-stats ul li.st-activity {
 	text-align: right;
 	display: block;
 	white-space: nowrap;
 	}
 
- #brd-stats li  strong {
+#brd-stats li  strong {
 	font-weight: bold;
 	}
 
 #brd-online {
 	position: relative;
-	top: -6em;
-	width: 65%;
-	padding: 0.5em 0 .5em 5.5em;
-	border: 0;
-	background: url(bg_dot_hor.gif) repeat-x left bottom;
+	top: -5.0em;
+	padding-bottom: 0.143em;
+	margin-bottom: -0.5em;
+	border-bottom: 1px dashed #ccc;
 	}
 
 #brd-online .hn, #brd-online p {
@@ -778,7 +782,7 @@ D - COMMON INTERFACE ELEMENTS
 	font-size: 1.1em;
 	}
 
- #brd-online .hn {
+#brd-online .hn {
 	float: left;
 	margin-right: 0.5em;
 	}
@@ -1090,9 +1094,9 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	font-size: 1em;
 	font-weight: bold;
 	}
- #brd-index .main-content .main-item p {
+/* #brd-index .main-content .main-item p {
 	font-size: 1.072em;
- 	}
+ 	}*/
 #brd-index .main-content .main-item .hn small {
 	font-size: 1em;
 	}
@@ -1119,7 +1123,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 		padding-left: 1.1em;
 		}
 .brd .main-content .main-item .item-subject p {
-	margin: 0 0 0 1.4em;
+	margin: 0 0 0 1.286em;
 	padding-top: .2em;
 	}
 
