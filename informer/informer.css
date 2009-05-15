@@ -199,8 +199,8 @@ B - GLOBAL STYLES
 		}
 
 .brd #brd-announcement {
-	padding-top: 0.4em;
-	padding-bottom: 0.8em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	margin: 0.5em 0;
 	}
 	.brd #brd-announcement p{
@@ -257,11 +257,11 @@ B - GLOBAL STYLES
 	padding-right: 10em;
 	font-weight: bold;
 	}
-	.brd .main-foot p{
+	.brd .main-foot p {
 		padding: 0;
 		line-height: 2.2;
 		}
-		
+
 .brd h2.main-subhead {
 	border-style: solid;
 	border-width: 1px;
@@ -302,12 +302,14 @@ B - GLOBAL STYLES
 .brd #brd-announcement h1, .brd .main-extensions .ct-legend, .brd .main-hotfixes .ct-legend {
 	border-bottom-style: dashed;
 	border-bottom-width: 1px;
-	font-size: 1.1em;
+	font-size: 1.072em;
 	font-weight: bold;
 	}
 
 .brd #brd-announcement h1 {
 	margin-bottom: 0.5em;
+	margin-top: 0;
+	padding-top: 0;
 	}
 
 .brd .main-pagehead .hn {
@@ -607,7 +609,6 @@ D - COMMON INTERFACE ELEMENTS
 #brd-navlinks li a {
 	float: left;
 	padding: 0.35em 1.417em 0.35em;
-/*	line-height: 2.333;*/
 	font-size: 85.7%;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -834,8 +835,7 @@ D - COMMON INTERFACE ELEMENTS
 
 .brd p.options {
 	border-top: none;
-	float:right;
-	padding: .5em 0 0 0;
+	float: right;
 	line-height: 1.2;
 	}
 	.brd .main-head p.options a{
@@ -860,7 +860,7 @@ D - COMMON INTERFACE ELEMENTS
 .brd p.content-options, .brd .ct-options {
 	float: right;
 	margin-top: -2.4em;
-	padding: 0.5em 1.214em;
+	padding: 0.5em 1.286em;
 	position: relative;
 	}
 
@@ -1119,9 +1119,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	font-size: 1.072em;
 	margin: 0 0 0 1.266em;
 	}
-	* html .item-starter{
-		padding-left: 1.1em;
-		}
+
 .brd .main-content .main-item .item-subject p {
 	margin: 0 0 0 1.286em;
 	padding-top: .2em;
@@ -1166,7 +1164,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	font-size: 2em;
 	width: 1em;
 	left: -0.5em;
-	top: 0;
+	top: 0.143em;
 	}
 
 /*************************************************************
@@ -1546,12 +1544,12 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	border-style: solid;
 	border-width: 1px;
 	position: relative;
-	margin: 1.417em;
-	margin-top: -1.417em;
+	margin: 1.214em;
+	margin-top: -1.214em;
 	}
 
 .brd .firstpost, .brd .singlepost {
-	margin-top: 1.417em;
+	margin-top: 1.286em;
 	}
 
 .brd .main-topic .lastpost {
