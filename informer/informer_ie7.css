@@ -9,7 +9,6 @@ IE7 - FIXES
 .brd .main,
 #brd-index .main-subhead,
 #brd-index .forum-item,
-.brd .gen-content,
 .brd .main-content,
 .brd .ct-box,
 .brd .ct-box *,
@@ -30,9 +29,13 @@ IE7 - FIXES
 .brd .post-entry,
 .brd .postfoot .post-options,
 #brd-stats ul {
-	max-height: 100%;
 	zoom: 1;
+	max-height: 100%;
 	}
+
+.brd .gen-content {
+	zoom: 1;
+}
 
 /* Forms
 -------------------------------------------------------------*/

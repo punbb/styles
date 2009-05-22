@@ -149,7 +149,7 @@ B - GLOBAL STYLES
 		background: #4160a0 url(bg_navlinks_bt2.gif) repeat-x left bottom;
 		}
 	#mm3 {
-		padding-top: 3px;
+		padding: 6px 0 3px 0;
 		background: #4160a0 url(bg_about_top2.gif) repeat-x left top;
 		}
 
@@ -793,7 +793,7 @@ D - COMMON INTERFACE ELEMENTS
 
 #qjump {
 	float: left;
-	padding: 0.5em 0.5em 0 1.286em;
+	padding: 0 0.5em 0.214em 1.286em;
 	}
 /*
 #brd-index #brd-about {
@@ -814,7 +814,9 @@ D - COMMON INTERFACE ELEMENTS
 
 #brd-about p {
 	text-align: right;
-	padding: .3em 1.286em;
+	padding: 0 1.286em 0.286em;
+	margin: 0;
+	line-height: 1.6;
 	}
 	#brd-about p a{
 		color: #fff;
