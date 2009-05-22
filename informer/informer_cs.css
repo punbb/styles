@@ -70,20 +70,24 @@ body {
 	color: #888;
 	}
 
-.brd .main-content .sticky {
-	background: #EDF1F6;
+.brd .main-content .even {
+	background: #f4f4f4;
 	}
 
-.brd .main-content .sticky .even {
-/*	background: #EEF1F7;*/
+.brd .main-content .sticky {
+	background: #f2f4f6;
+	}
+
+.brd .main-content .even.sticky {
+	background: #edf1f6;
 	}
 
 .brd .main-content .closed {
-	background: #E8E8E8;
+	background: #E9E9E9;
 	}
 
-.brd .main-content .sticky .even {
-	background: #EEF1F7;
+.brd .main-content .even.closed {
+	background: #EDEDED;
 	}
 
 .brd .main-content .main-item .hn .item-status em.sticky {
@@ -95,6 +99,11 @@ body {
 .brd .main-content .main-item .hn .item-status em.closed {
 	color: #314B60;
 	font-weight: bold;
+	}
+
+.brd .main-content .main-item .hn .item-status em.moved {
+	color: #666;
+	font-style: italic;
 	}
 
 .brd .post * {

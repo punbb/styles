@@ -957,10 +957,6 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	line-height: 1.4em;
 	}
 
-.brd .main-content .even {
-	background: #f6f6f6;
-	}
-
 .brd .main-content .main-first-item {
 	border-top: none;
 	}
@@ -1164,9 +1160,8 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 .brd .main-content .main-item .hn .posted-mark {
 	position: absolute;
 	font-size: 2em;
-	width: 1em;
 	left: -0.5em;
-	top: 0.143em;
+	top: 0.071em;
 	}
 
 /*************************************************************
