@@ -14,7 +14,7 @@ body {
 	}
 
 .brd a:link, .brd a:visited {
-	color: #a00000;
+	color: #a05;
 	}
 
 .brd .item-subject h3 a:link, .brd .item-subject h3 a:visited,
@@ -178,7 +178,7 @@ body {
 	}
 
 .brd .admin-page .ct-box {
-	background: #FEFFE6;
+	background: #FFF4FC;
 	}
 
 .brd .admin-page .ct-set .ct-box, .brd .report {
@@ -195,7 +195,7 @@ body {
 	}
 
 .brd .main-content .info-box {
-	background: #FFFFE1;
+	background: #FAF0FF;
 	}
 
 .brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
