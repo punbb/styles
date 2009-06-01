@@ -6,17 +6,25 @@ body {
 	color: #000;
 	}
 
-.brd a:link, .brd a:visited {
-	color: #6d0f0f;
+#mm1 {
+	background: #4160a0 url(bg_navlinks_bt2.gif) repeat-x left bottom;
+	}
+#mm3 {
+	background: #4160a0 url(bg_about_top2.gif) repeat-x left top;
 	}
 
-.brd .item-subject h3 a:link, .brd .item-subject h3 a:visited {
-	color:#002c87;
+.brd a:link, .brd a:visited {
+	color: #a00000;
+	}
+
+.brd .item-subject h3 a:link, .brd .item-subject h3 a:visited,
+.brd .post-byline a:link, .brd .post-byline a:visited {
+	color: #002c87;
 	}
 
 .brd p.feed a:link, .brd p.feed a:visited,
 .brd .main-foot .options a:link, .brd .main-foot .options a:visited {
-	color:#333;
+	color: #333;
 	}
 
 .brd a:hover, .brd a:active, .brd a:focus,
@@ -37,12 +45,18 @@ body {
 	text-decoration: underline;
 	}
 
+.brd .main-menu li.active a, .brd .admin-menu li.active a {
+	font-weight: bold;
+	background-color: #365085;
+	}
+	.brd .main-menu li a:hover, .brd .admin-menu li a:hover {
+		background-color: #365085;
+		text-decoration: none;
+		}
+
 .brd .gen-content, .brd .main-content {
 	background: #fff;
 	border-color: #d8dfe2;
-	}
-.brd .main-category {
-	border-top: 0;
 	}
 
 .brd .main-pagepost {
@@ -60,10 +74,12 @@ body {
 	border-color: #DDE4EB;
 	}
 
-.brd .main-item li.info-posts,
-.brd .main-item li.info-replies,
-.brd .main-item li.info-views,
-.brd .main-item li.info-topics {
+.brd .item-summary .info-topics,
+.brd .item-summary .info-replies,
+.brd .item-summary .info-posts,
+.brd .item-summary .info-views,
+.brd .item-summary .info-lastpost {
+	background: url(bg_dot_vert.gif) repeat-y;
 	}
 
 .brd .main-content .main-item .item-nav {
@@ -73,21 +89,37 @@ body {
 .brd .main-content .even {
 	background: #f4f4f4;
 	}
+.brd .main-content .odd li {
+	border-left-color: #eef1f2;
+	}
+.brd .main-content .even li {
+	border-left-color: #e8eced;
+	}
 
 .brd .main-content .sticky {
 	background: #f2f4f6;
 	}
-
 .brd .main-content .even.sticky {
 	background: #edf1f6;
+	}
+.brd .main-content .odd.sticky li {
+	border-left-color: #ebf1f6;
+	}
+.brd .main-content .even.sticky li {
+	border-left-color: #e6edf6;
 	}
 
 .brd .main-content .closed {
 	background: #E9E9E9;
 	}
-
 .brd .main-content .even.closed {
 	background: #EDEDED;
+	}
+.brd .main-content .odd.closed li {
+	border-left-color: #e4e4e4;
+	}
+.brd .main-content .even.closed li {
+	border-left-color: #E9E9E9;
 	}
 
 .brd .main-content .main-item .hn .item-status em.sticky {
@@ -256,13 +288,22 @@ body {
 	color: #fff;
 	}
 
-#brd-navlinks a:link, #brd-navlinks a:visited {
-	color: #ddd;
+#brd-navlinks a:link, #brd-navlinks a:visited, #brd-about p, #brd-about p * {
+	color: #eee;
 	}
 
 #brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus {
 	color: #fff;
 	text-decoration: underline;
+	}
+
+#brd-navlinks li a:hover,
+#brd-navlinks .isactive a{
+	background-color: #365085;
+	text-decoration: none;
+	}
+#brd-navlinks .isactive a{
+	font-weight: bold;
 	}
 
 .brd .main-options, .brd .main-options span {
@@ -345,10 +386,7 @@ body {
 ----------------------------------------------------------------*/
 
 #brd-head {
-	border: 0;
-	}
-
-#brd-head a, #brd-head a:link, #brd-head a:visited {
+	background: url(logo.png) no-repeat 1.214em bottom;
 	}
 
 .brd .main-head, .brd .main-foot {
@@ -364,17 +402,12 @@ body {
 .brd .main-subhead {
 	border-color: #d8dfe2;
 	border-top-color: #d2dae2;
-	border-bottom: 0;
 	background: #e8ecee;
 	}
 
 .brd .column-title {
 	border-color: #F4F4F4 #F4F4F4 #CBD1D8 #F4F4F4;
 	background: #F4F4F4;
-	}
-
-.brd .content-head {
-
 	}
 
 .brd th {
@@ -391,11 +424,6 @@ body {
 .brd .content-head .hn {
 	border-color: #DBE0E4;
 	color: #666;
-	}
-
-.brd .main-head a:link, .brd .main-head a:visited,
-.brd .main-foot .options a:link, .brd .main-foot .options a:visited {
-/*	color: #ccc;*/
 	}
 
 .brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
@@ -416,28 +444,20 @@ body {
 ----------------------------------------------------------------*/
 
 .brd .main-content .main-item .icon {
+	background: url(bg_icons.gif) no-repeat;
+	}
+.brd .main-content .main-item .icon.new {
 	background-position: 0 -19px;
 	}
-.brd .main-content .main-item .new {
-	background-position: 0 0;
+.brd .main-content .main-item .icon.sticky {
+	background-position: 0 -38px;
 	}
-
-.brd .main-content .redirect .icon {
-	border-color: #f4f4f4 #f4f4f4 #f4f4f4 #f4f4f4
+.brd .main-content .main-item .icon.closed {
+	background-position: 0 -57px;
 	}
-
-.brd .main-content .sticky .icon {
-	border-color: #D7E5F3 #C3CFDC #9FB3C7 #90A2B4
+.brd .main-content .main-item .icon.moved {
+	background-position: 0 -76px;
 	}
-
-.brd .main-content .closed .icon {
-	border-color: #ACACAC #979797 #898989 #7A7A7A
-	}
-
-.brd .main-content .sticky .closed .icon {
-	border-color: #D7E5F3 #C3CFDC #898989 #7A7A7A
-	}
-
 
 
 /* Multi Checkbox Widget
@@ -450,6 +470,12 @@ body {
 #brd-about {
 	background: #7b94c8 url(bg_about_top1.gif) repeat-x left top;
 	}
-#brd-about p, #brd-about p * {
-	color: #EAEAEA;
+	#brd-about p a{
+		color: #fff;
+		font-weight: normal;
+		}
+
+.brd a.feed {
+	padding-left: 22px;
+	background: url(feed-icon.png) center left no-repeat;
 	}

@@ -146,11 +146,9 @@ B - GLOBAL STYLES
 		}
 	#mm1 {
 		padding-bottom: 2px;
-		background: #4160a0 url(bg_navlinks_bt2.gif) repeat-x left bottom;
 		}
 	#mm3 {
 		padding: 6px 0 3px 0;
-		background: #4160a0 url(bg_about_top2.gif) repeat-x left top;
 		}
 
 #brd-redirect, #brd-maint, #brd-util {
@@ -296,7 +294,7 @@ B - GLOBAL STYLES
 	margin-top: -1em;
 	}
 	.brd .main-foot .options{
-		padding-top: .4em;
+		padding-top: 0.643em;
 		}
 
 .brd #brd-announcement h1, .brd .main-extensions .ct-legend, .brd .main-hotfixes .ct-legend {
@@ -521,15 +519,6 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	padding: 0.417em 1.417em;
 	}
 
-.brd .main-menu li.active a, .brd .admin-menu li.active a {
-	font-weight: bold;
-	background-color: #365085;
-	}
-	.brd .main-menu li a:hover, .brd .admin-menu li a:hover {
-		background-color: #365085;
-		text-decoration: none;
-		}
-
 .brd .main-menu li.first-item, .brd .admin-menu li.first-item {
 	border-left: 0;
 	}
@@ -557,8 +546,8 @@ D - COMMON INTERFACE ELEMENTS
 -------------------------------------------------------------*/
 
 #brd-head {
+	border: 0;
 	padding: 2.5em 1.214em 0 320px;
-	background: url(logo.png) no-repeat 1.214em bottom;
 	}
 
 #brd-title {
@@ -613,14 +602,6 @@ D - COMMON INTERFACE ELEMENTS
 	text-decoration: none;
 	text-transform: uppercase;
 	}
-	#brd-navlinks li a:hover,
-	#brd-navlinks .isactive a{
-		background-color: #365085;
-		text-decoration: none;
-		}
-	#brd-navlinks .isactive a{
-		font-weight: bold;
-		}
 
 #brd-admod {
 	padding: .3em 1.286em .3em 0;
@@ -818,10 +799,6 @@ D - COMMON INTERFACE ELEMENTS
 	margin: 0;
 	line-height: 1.6;
 	}
-	#brd-about p a{
-		color: #fff;
-		font-weight: normal;
-		}
 
 #querytime {
 	text-align: center;
@@ -852,11 +829,6 @@ D - COMMON INTERFACE ELEMENTS
 
 .brd .main-modoptions .options {
 	text-align: center;
-	}
-
-.brd a.feed {
-	padding-left: 22px;
-	background: url(feed-icon.png) center left no-repeat;
 	}
 
 .brd p.content-options, .brd .ct-options {
@@ -918,7 +890,6 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	text-align: center;
 	width: 7em;
 	left: 965em;
-	background: url(bg_dot_vert.gif) repeat-y;
 	}
 
 .brd .item-summary .info-forum {
@@ -933,14 +904,12 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	text-align: center;
 	width: 7em;
 	left: 971.919em;
-	background: url(bg_dot_vert.gif) repeat-y;
 	}
 
 .brd .item-summary .info-lastpost {
 	margin-left: 100%;
 	left: 978.836em;
 	padding-left: 1em;
-	background: url(bg_dot_vert.gif) repeat-y;
 	}
 
 .brd p.forum-noview .info-replies {
@@ -949,6 +918,10 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 
 /* Content setup generally
 -------------------------------------------------------------*/
+
+.brd .main-category {
+	border-top: 0;
+	}
 
 .brd .main-content .main-item {
 	border: 0;
@@ -990,12 +963,6 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	position: relative;
 	padding-top: 0.6em;
 	padding-bottom: 10.4em;
-	}
-.brd .main-content .odd li {
-	border-left-color: #eef1f2;
-	}
-.brd .main-content .even li {
-	border-left-color: #e8eced;
 	}
 .brd .main-content .main-item .item-subject{
 	border-left: 0;
@@ -1154,7 +1121,6 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	float: left;
 	margin-top: 0.643em;
 	margin-left: -1.286em;
-	background: url(bg_icon_new.gif) no-repeat;
 	}
 
 .brd .main-content .main-item .hn .posted-mark {
