@@ -162,7 +162,7 @@ body {
 	}
 
 .brd .posthead .hn {
-	background: #F1F1F1;
+	background: #F4F4F4;
 	}
 
 .brd .posthead .post-title small {
@@ -181,38 +181,41 @@ body {
 	background: #FFF4FC;
 	}
 
-.brd .admin-page .ct-set .ct-box, .brd .report {
+.brd .main-content .info-box {
+	background: #EDF4FF;
+	}
+
+.brd #brd-announcement {
 	background: #F7F7F7;
 	}
 
+.brd .main-frm .ct-group,
+.brd .admin-page .ct-set .ct-box,
+.brd .report,
+.brd .main-extensions .extension,
+.brd .main-hotfixes .hotfix {
+	background: #F6F9FD;
+	}
+
 .brd .admin-page .warn-set .warn-box {
-	background: #FEFFE6;
+	background: #FFF4FC;
 	}
 
 .brd .main-frm .ct-group, .brd #brd-announcement {
-	background: #f7f7f7;
 	border-color: #d9e0e3;
 	}
 
-.brd .main-content .info-box {
-	background: #FAF0FF;
-	}
-
-.brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
-	background: #F4F9FD;
-	}
-
 .brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
-	background: #FFFFE1;
+	background: #eee;
 	}
 
 .brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box, .brd #admin-alerts {
-	background: #FEFFE6;
+	background: #FFF4FC;
 	border-color: #F4EBCE;
 	}
 
 .brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box {
-	border-color: #E6D190;
+	border-color: #E6D0D1;
 	}
 
 .brd ul.info-list li,
