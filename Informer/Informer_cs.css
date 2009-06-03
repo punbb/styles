@@ -14,7 +14,7 @@ body {
 	}
 
 .brd a:link, .brd a:visited {
-	color: #a05;
+	color: #811;
 	}
 
 .brd .item-subject h3 a:link, .brd .item-subject h3 a:visited,
@@ -86,39 +86,39 @@ body {
 	color: #888;
 	}
 
-.brd .main-content .even {
+.brd .main-content .main-item.even {
 	background: #f4f4f4;
 	}
-.brd .main-content .odd li {
+.brd .main-content .main-item.odd li {
 	border-left-color: #eef1f2;
 	}
-.brd .main-content .even li {
+.brd .main-content .main-item.even li {
 	border-left-color: #e8eced;
 	}
 
-.brd .main-content .sticky {
+.brd .main-content .main-item.sticky {
 	background: #f2f4f6;
 	}
-.brd .main-content .even.sticky {
+.brd .main-content .main-item.even.sticky {
 	background: #edf1f6;
 	}
-.brd .main-content .odd.sticky li {
+.brd .main-content .main-item.odd.sticky li {
 	border-left-color: #ebf1f6;
 	}
-.brd .main-content .even.sticky li {
+.brd .main-content .main-item.even.sticky li {
 	border-left-color: #e6edf6;
 	}
 
-.brd .main-content .closed {
+.brd .main-content .main-item.closed {
 	background: #E9E9E9;
 	}
-.brd .main-content .even.closed {
+.brd .main-content .main-item.even.closed {
 	background: #EDEDED;
 	}
-.brd .main-content .odd.closed li {
+.brd .main-content .main-item.odd.closed li {
 	border-left-color: #e4e4e4;
 	}
-.brd .main-content .even.closed li {
+.brd .main-content .main-item.even.closed li {
 	border-left-color: #E9E9E9;
 	}
 
@@ -162,7 +162,7 @@ body {
 	}
 
 .brd .posthead .hn {
-	background: #F4F4F4;
+	background: #F1F1F1;
 	}
 
 .brd .posthead .post-title small {
@@ -449,9 +449,6 @@ body {
 .brd .main-content .main-item .icon {
 	background: url(bg_icons.gif) no-repeat;
 	}
-.brd .main-content .main-item .icon.new {
-	background-position: 0 -19px;
-	}
 .brd .main-content .main-item .icon.sticky {
 	background-position: 0 -38px;
 	}
@@ -460,6 +457,9 @@ body {
 	}
 .brd .main-content .main-item .icon.moved {
 	background-position: 0 -76px;
+	}
+.brd .main-content .main-item .icon.new {
+	background-position: 0 -19px;
 	}
 
 

@@ -362,7 +362,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 
 .brd .ct-box li {
 	padding: 0;
-	margin: 0 0 0.7em 0;
+	margin: 0 0 0.5em 0;
 	}
 
 .brd .ct-set {
@@ -1537,8 +1537,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 .brd .posthead .hn {
 	padding-right: 1.214em;
 	padding-left: 1em;
-	border-style: none none dashed none;
-	border-width: 1px;
+	border: none;
 	}
 
 .brd .post .posthead .post-byline a,
