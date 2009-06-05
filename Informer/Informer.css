@@ -794,8 +794,9 @@ D - COMMON INTERFACE ELEMENTS
 	}
 
 #brd-about p {
+	font-size: 0.857em;
 	text-align: right;
-	padding: 0 1.286em 0.286em;
+	padding: 0 1.5em 0.333em;
 	margin: 0;
 	line-height: 1.6;
 	}
