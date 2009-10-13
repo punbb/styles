@@ -1,0 +1,24 @@
+/* ttt
+-------------------------------------------------------------*/
+/*#brd-about #qjump {
+left:80%;
+width:170px;
+}*/
+.brd .checklist .checklist-item input {
+	border: 1px solid #fff;
+	height: 1em;
+	}
+.brd .txt-set textarea {
+	width: 95%;
+	overflow: hidden;
+	}
+
+#brd-about p {
+	white-space:nowrap;
+	}
+/*#brd-about #qjump select {
+width:15em;
+}
+#brd-about #qjump {
+width:20em;
+}*/

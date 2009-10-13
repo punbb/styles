@@ -1,0 +1,595 @@
+/* General colour scheme
+----------------------------------------------------------------*/
+
+body {
+	color: #333;
+	background: url(bg_body.gif);
+	}
+
+.brd {
+	background: #28669f;
+	}
+
+.brd .item-summary {
+	background: url(bg_main_subhead_right.gif) no-repeat top right;
+	}
+	.brd .item-summary .subject-title {
+		background: url(bg_main_subhead_left.gif) no-repeat top left;
+		}
+
+.brd .item-summary .info-views,
+.brd .item-summary .info-posts,
+.brd .item-summary .info-lastpost {
+	background: url(bg_main_subhead_item_left.gif) repeat-y top left;
+	}
+
+.brd a:link, .brd a:visited {
+	color: #7dc8ed;
+	}
+
+.brd p.feed a:link, .brd p.feed a:visited {
+	color: #DDDDDD;
+	}
+
+.brd a.feed {
+	padding-left: 22px;
+	background: url(feed-icon.png) center left no-repeat;
+	}
+
+#brd-visit {
+	background: none;
+	color: #e1e1e1;
+	}
+
+#brd-redirect, #brd-maint {
+	background: none;
+	}
+
+#brd-admin-uresults .main-head .hn,
+#brd-admin-uresults .main-head .hn span {
+	background: none;
+	}
+
+.brd a:hover, .brd a:active, .brd a:focus, #brd-visit a
+.brd p.feed a:hover, .brd p.feed a:active, .brd p.feed a:focus {
+	color: #fff;
+	text-decoration: none;
+	}
+
+.brd .main-pagepost a:link, /*.brd .crumbs a:link,*/
+.brd .main-pagepost a:visited/*, .brd .crumbs a:visited*/ {
+	text-decoration: none;
+	}
+
+.brd .main-pagepost a:hover, .brd .crumbs a:hover,
+.brd .main-pagepost a:active, .brd .crumbs a:active,
+.brd .main-pagepost a:focus, .brd .crumbs a:focus {
+	text-decoration: underline;
+	}
+.brd .main-pagepost a:hover, .brd .crumbs a:hover {
+	color:#fff;
+	}
+.brd .gen-content, .brd .main-content {
+	background: #fbfbfb;
+	border-color: #DFE6ED;
+	border-bottom-color: #CBD1D8;
+	}
+	.brd .main-content a, .brd .main-content a:visited {
+		color: #0b63d0;
+		}
+		.brd .main-content a:hover {
+			color: #7DC8ED;
+		}
+.brd .main-pagepost {
+	background: #28669F;
+	color: #fff;
+	/*border-color: #DDE4EB;*/
+	}
+
+.brd .crumbs {
+	background: #28669F;
+	border: 0;
+	color: #fff;
+	}
+	.brd .crumbs a{
+		color: #7dc8ed;
+		}
+
+#brd-about {
+	background: #8baebf url(bg_brd_about_bottom.gif) repeat-x bottom left;
+	color: #3e5b6a;
+	}
+	#brd-about .inner{
+		background: url(bg_brd_about.gif) repeat-x top left;
+		}
+	#brd-about a{
+		color: #598094;
+		}
+		#brd-about a:hover{
+			color: #fff;
+			}
+
+#querytime {
+	color: #aaa;
+	background: #112a49;
+	}
+
+.brd .main-item, .brd .main-item li, .brd .main-item div, .brd td {
+	border-color: #DDE4EB;
+	}
+.brd .main-content .main-item li.info-select{
+	border-color: #9fc8db;
+	}
+.brd .main-content .odd li.info-replies,
+.brd .main-content .odd li.info-views,
+.brd .main-content .odd li.info-topics,
+.brd .main-content .odd li.info-posts,
+.brd .main-content .odd li.info-lastpost {
+	border-left: 1px solid #eef1f2;
+	}
+.brd .main-content .even li.info-replies,
+.brd .main-content .even li.info-views,
+.brd .main-content .even li.info-topics,
+.brd .main-content .even li.info-posts,
+.brd .main-content .even li.info-lastpost {
+	border-left: 1px solid #e4ebee;
+	}
+.brd .main-content.main-forum div.odd,
+.brd .main-content.main-category div.odd {
+	background: #f0f7fa;
+	}
+.brd .main-content.main-forum div.even,
+.brd .main-content.main-category div.even {
+	background: #FFF;
+	}
+
+.brd .main-content.main-forum div.even.sticky {
+	background: #E2F4FB;
+	}
+.brd .main-content.main-forum div.odd.sticky {
+	background: #DFF0F7;
+	}
+
+.brd .main-content.main-forum div.odd.closed {
+	background: #E6EBED;
+	}
+.brd .main-content.main-forum div.even.closed {
+	background: #EBECED;
+	}
+
+.brd .main-content .main-item .item-nav {
+	color: #888;
+	}
+
+.brd .main-content .main-item .hn .item-status em.sticky,
+.brd .main-content .main-item .hn .item-status em.closed {
+	color: #314B60;
+	font-weight: bold;
+	}
+
+.brd .post * {
+	border-color: #EFF7FA;
+	color: #636161;
+	}
+.brd .postbody .author-ident .userstatus span {
+	background: url(offline.gif) left no-repeat;
+	}
+.brd .postbody .author-ident .usertitle span,
+.brd .entry-content p{
+	color: #000;
+	}
+
+.brd .post {
+	/*border-color: #DDE4EB;*/
+	border-top-color: #8CAEBF;
+	/*border-bottom-color: #ccc;*/
+	}
+
+#topic-review .firstpost, .brd .singlepost {
+	border-top-color: #DDE4EB;
+	border-bottom-color: #DDE4EB;
+	}
+
+.brd .post {
+	background: #EDF1F5;
+	}
+
+.brd .posthead, .brd .postbody, .brd .post-options {
+	background: #f9f9f9;
+	}
+
+.brd .posthead .hn {
+	background: #E5EFF3;
+	}
+
+.brd .posthead .post-title small {
+	color: #999;
+	}
+
+.brd .online .author-ident .userstatus span {
+	background: url(online.gif) left no-repeat;
+	}
+
+.brd .ct-box, .brd .ct-set, .brd .ct-group, .brd .frm-group {
+	border-color: #DBE0E4;
+	}
+
+.brd .admin-page .ct-box {
+	background: #fff6e5;
+	}
+
+.brd .admin-page .ct-set .ct-box, .brd .report {
+	background: #F4F9FD;
+	}
+
+.brd .admin-page .warn-set .warn-box {
+	background: #fcfbe9;
+	}
+
+.brd .main-frm .ct-group{
+	background: #edf4f7 /*url(bg_profile_top_right) no-repeat right top*/;
+	}
+	.brd .ct-group .ct-set .ct-box/*, .brd .ct-set .ct-box, .brd .frm-group .ct-set .ct-box*/ {
+		background: #FFF;
+		}
+
+.brd .ann-wrap {
+	background: #184a87 url(bg_ann_tl.gif) no-repeat top left;
+	color: #e1e1e1;
+	}
+	.brd .ann-wrap .ann-wr1 {
+		background: url(bg_ann_tr.gif) no-repeat top right;
+		}
+	.brd .ann-wrap .ann-wr2 {
+		background: url(bg_ann_bl.gif) no-repeat bottom left;
+		}
+	#brd-announcement {
+		color: #e1e1e1;
+		background: url(bg_ann_br.gif) no-repeat bottom right;
+		}
+		#brd-announcement a{
+			color: #7dc8ed;
+			}
+
+.brd .main-content .info-box {
+	background: #fff6e5;
+	}
+
+.brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
+	background: #eef9fb;
+	}
+
+.brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
+	background: #ddd;
+	}
+
+.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box, .brd #admin-alerts {
+	background: #fcfbe9;
+	border-color: #F4EBCE;
+	}
+
+.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box {
+	border-color: #E6D190;
+	}
+
+.brd ul.info-list li,
+.brd ul.error-list li {
+	/*color: #6A97BF;*/
+	}
+
+.brd ul.info-list li span,
+.brd ul.error-list li span {
+	color: #666;
+	}
+
+.brd ul li strong {
+	color: #333;
+	}
+
+.brd .user-box {
+	background: #F4F9FD;
+	}
+.brd .ct-box .hn, .brd .ct-box p,.brd .ct-box .sig-demo {
+	border-color: #DBE0E4;
+	color: #636161/*#1F537B*/;
+	}
+
+.brd .error-box .hn {
+	color: #333;
+	}
+
+.brd .help-box {
+	background: #f4f4f4;
+	}
+	.brd .help-box .hn {
+		color: #294F6E
+		}
+
+.brd .frm-buttons, .brd .extension .options, .brd .hotfix .options {
+	border-color: #DBE0E4;
+	}
+
+.brd .checklist {
+	background: #fff;
+	border-color: #ccc;
+	}
+
+.brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-group * {
+	color: #636161;
+	}
+.brd .mf-set legend {
+	background: transparent;
+	}
+
+.brd .paging * {
+	border-color: #dedfdf;
+	}
+
+
+.brd .required label em, .brd #req-msg em, .brd .warn strong, .brd .important strong {
+	color: #ff0000;
+	}
+
+.brd .entry-content .quotebox, .brd .entry-content .codebox {
+	background: #fff;
+	border-color: #ddd;
+	}
+
+#brd-announcement .userbox {
+	background: #F4F9FD none repeat scroll 0 0;
+	}
+
+.brd .main-content .main-item .hn .posted-mark {
+	color: #99C;
+	}
+
+/* Menus
+----------------------------------------------------------------*/
+
+#brd-navlinks {
+	background: #8baebf url(bg_brd_navlinks.gif) repeat-x left bottom;
+	border: 0;
+	color: #010101;
+	}
+
+#brd-navlinks a:link,
+#brd-navlinks a:visited {
+	color: #010101;
+	}
+
+#brd-navlinks a:hover,
+#brd-navlinks a:active,
+#brd-navlinks a:focus,
+#brd-navlinks .isactive a {
+	color: #fff;
+	text-decoration: none;
+	}
+
+#brd-navlinks .isactive a {
+	background: #5b7083  url(bg_brd_navlinks_hover.gif) repeat-x left bottom;
+	}
+
+.brd .main-options, .brd .main-options span {
+	background: #DDE4EB;
+	}
+
+.brd .main-menu, .brd .admin-menu {
+	background: #8BAEBF url(bg_main_head_top.gif) repeat-x left top;
+	position: relative;
+	}
+	.brd .main-menu ul, .brd .admin-menu ul {
+		background: url(bg_main_head_right.gif) no-repeat right top;
+		}
+		.brd .main-menu li.first-item, .brd .admin-menu li.first-item {
+			background: url(bg_main_head_left.gif) no-repeat left top;
+			}
+.brd .admin-submenu {
+	background: #a8c2cf;
+	border-color: #DFE6ED;
+	}
+	.brd .admin-submenu a:link, .brd .admin-submenu a:visited {
+		color: #0B63D0;
+		}
+		.brd .admin-submenu a:hover{
+			color: #FFF;
+			}
+.brd .main-menu a:link,
+.brd .main-menu a:visited,
+.brd .admin-menu a:link,
+.brd .admin-menu a:visited {
+	color: #184a87;
+	text-decoration: none;
+	}
+
+.brd .main-menu a:hover,
+.brd .main-menu a:active,
+.brd .main-menu a:focus,
+.brd .admin-menu a:hover,
+.brd .admin-menu a:active,
+.brd .admin-menu a:focus {
+	text-decoration: underline;
+	color: #fff;
+	}
+
+.brd .main-menu li.active a:hover,
+.brd .main-menu li.active a:active,
+.brd .main-menu li.active a:focus,
+.brd .main-menu li.active a:visited,
+.brd .admin-menu li.active a:hover,
+.brd .admin-menu li.active a:active,
+.brd .admin-menu li.active a:focus,
+.brd .admin-menu li.active a:visited {
+	text-decoration: none;
+	}
+
+.brd .admin-submenu li.active a {
+	text-decoration: none;
+	}
+
+.brd .main-menu li.active a {
+	color: #fff;
+	}
+
+.brd .admin-menu li.active a {
+	color: #eef;
+	}
+
+#brd-admod #alert a {
+	color: yellow;
+	}
+
+/* Logo and Headings
+----------------------------------------------------------------*/
+
+#brd-head-bg {
+	background: url(bg_brd_head.gif) repeat-x top;
+	color: #ddd;
+	}
+#brd-head-bgright {
+	background: url(bg_brd_head_right.png) right top no-repeat;
+	min-height: 93px;
+	}
+#brd-head {
+	background: none;
+	color: #ddd;
+	border: 0;
+	}
+
+#brd-head a, #brd-head a:link, #brd-head a:visited {
+	color: #fff;
+	}
+
+.brd .main-head, .brd .main-foot {
+	background: #8baebf;
+	color: #fff;
+	border: 0;
+	}
+	.brd .main-head {
+		background: #8baebf url(bg_main_head_top.gif) repeat-x top left;
+		}
+
+.brd .main-head .hn{
+	background: url(bg_main_head_right.gif) no-repeat top right;
+	}
+#brd-maint .main-head .hn, #brd-redirect .main-head .hn {
+	background: url(bg_main_head_right1.gif) no-repeat top right;
+	}
+	.brd .main-head .hn span{
+		background: url(bg_main_head_left.gif) no-repeat top left;
+		}
+		.brd .main-head .hn span span{
+			background: none;
+			}
+		#brd-maint .main-head .hn span, #brd-redirect .main-head .hn span {
+			background: url(bg_main_head_left1.gif) no-repeat top left;
+			}
+
+.brd .main-foot  .hn span span{
+	background: none;
+	}
+
+.brd #brd-announcement h1 {
+	border-color: #BBBBBB;
+	}
+
+.brd .main-subhead {
+	border: 0;
+	background: #cddee7 url(bg_main_subhead_top.gif) repeat-x top left;
+	}
+
+.brd .column-title {
+	border-color: #F4F4F4 #F4F4F4 #CBD1D8 #F4F4F4;
+	background: #F4F4F4;
+	}
+
+.brd .content-head {
+
+	}
+
+.brd th {
+	background: #EAEEF5;
+	border-bottom-color: #fff;
+	border-top-color: #ddd;
+	}
+
+.brd .group-head {
+	background: #EDF1F5;
+	border-color: #DBE0E4;
+	}
+
+.brd .content-head .hn {
+	border-color: #DBE0E4;
+	color: #666;
+	}
+
+.brd .main-head a:link, .brd .main-head a:visited,
+.brd .main-foot .options a:link, .brd .main-foot .options a:visited {
+	color: #e4e4e4;
+	}
+
+.brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
+.brd .main-foot .options a:hover, .brd .main-foot .options a:active, .brd .main-foot .options a:focus {
+	color: #fff;
+	}
+
+.brd .main-frm .ct-group td{
+	background: #FBFBFB;
+	}
+
+
+/* Status indicators
+----------------------------------------------------------------*/
+
+.brd .main-content .main-item .icon {
+	width: 39px;
+	height: 32px;
+	background: url(topic_status.png) no-repeat 0 -32px;
+	margin-left: -42px;
+	margin-top: 0.714em;
+	}
+	.brd .main-content .new .icon {
+		background-position: 0 0;
+		}
+	.brd .main-content .moved .icon {
+		background-position: 0 -128px;
+		}
+	.brd .main-content .sticky .icon {
+		background-position: 0 -64px;
+		}
+
+	.brd .main-content .closed .icon {
+		background-position: 0 -96px;
+		}
+
+	.brd .main-content .sticky.closed {
+		background-position: 0 -160px;
+		}
+
+/* Multi Checkbox Widget
+-------------------------------------------------------------*/
+
+.brd .checklist .checklist-item label {
+	background: #fff;
+	}
+.brd .checklist .checklist-item label:hover {
+	background: #EDF1F5;
+	}
+
+#brd-stats, #brd-online {
+	background: none;
+	color: #FFF;
+	}
+#brd-stats li strong {
+	color: #FFF;
+	}
+#brd-online {
+	border-bottom: 1px solid #5C7F9F;
+	}
+
+#brd-access {
+	background: transparent;
+	}
+
+#brd-access a:hover, #brd-access a:active, #brd-access a:focus {
+	background: #000;
+	}
