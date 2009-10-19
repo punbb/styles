@@ -219,7 +219,7 @@ B - GLOBAL STYLES
 .brd .main-options {
 	border-top: none;
 	margin: -1.167em 0;
-	padding-bottom:1.167em;
+	padding-bottom: 1.167em;
 }
 
 /* Content Text (Default spacing for paragraphs and lists)
@@ -416,7 +416,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-group {
 	border-style: solid;
 	border-width: 1px;
-	/*margin: 1.417em;*/
+	margin-bottom: 1.417em;
 	}
 
 .brd .frm-group .ct-set {
@@ -427,7 +427,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-group .ct-set {
 	border-style: dotted none none none;
 	margin: 0;
-	padding: 0 0 0 15.5em;
+/* 	padding: 0 0 0 15.5em; */
 	}
 .brd .ct-group .group-item1 {
 	border: none;
@@ -455,18 +455,18 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .ct-set .ct-legend {
 	float: left;
 	text-align: right;
-	margin-left: -15.5em;
-	width: 14.5em;
+	margin-left: -16em;
+	width: 14em;
 	display: inline;
 	position: relative;
 	font-weight: bold;
 	}
 
-#brd-admin-information .ct-set .ct-legend,
-#brd-admin-groups .ct-set .ct-legend,
-.vcard .ct-set .ct-legend {
-	margin-left: -15.5em;
-	width: 13.5em;
+#brd-profile-signature  .ct-set .ct-legend,
+#brd-profile-admin  .ct-set .ct-legend,
+#brd-profile-avatar .ct-set .ct-legend {
+	margin-left: -17em;
+	width: 16em;
 	}
 
 .brd .ct-set ul {
@@ -554,7 +554,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .main-menu ul, .brd .admin-menu ul {
 	list-style-type: none;
 	display: block;
-	padding: 0/*.4em*/ 0 0.2em 0/*.75em*/;
+	padding: 0 0 2.5em 0;
 	}
 
 .brd .main-menu li, .brd .admin-menu li {
@@ -861,13 +861,15 @@ D - COMMON INTERFACE ELEMENTS
 	float: right;
 	}
 	.brd .main-head p.options {
+		font-size: 1.167em;
 		position: absolute;
 		top: 0;
 		right: 1.231em;
 		}
 	.brd .main-foot p.options {
-			padding-right: 1.333em;
-			}
+		font-size: 1.167em;
+		padding: 0.357em 1.143em;
+		}
 
 .brd .main-modoptions .options {
 	text-align: center;
@@ -875,9 +877,10 @@ D - COMMON INTERFACE ELEMENTS
 
 .brd .content-options, .brd .ct-options {
 	float: right;
-	margin-top: -3.4em;
+	margin-top: -3.6em;
 	padding: 0.5em 0 0.5em 1.417em;
 	position: relative;
+	font-size: 0.929em;
 	}
 
 .brd #select-all {
@@ -1531,13 +1534,14 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	border-style: solid;
 	border-width: 1px;
 	position: relative;
-	margin: 1.417em;
+/* 	margin: 1.417em;
 	margin-top: -1.417em;
-	}
+ */	}
 
-.brd .firstpost, .brd .singlepost {
-	margin-top: 1.417em;
-	}
+/* .brd .firstpost, */ .brd .singlepost {
+	margin-bottom: 1.417em;
+/* 	margin-top: 1.417em;
+ */	}
 
 .brd .main-topic .lastpost {
 	border-bottom: 0;
@@ -1553,14 +1557,19 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	}
 
 .brd .posthead {
+	/*zoom: 1;*/
 	margin-left: 18em;
 	border-style: none none none solid;
 	border-width: 1px;
-	zoom: 1;
+	}
+
+#brd-postdelete .posthead,
+#brd-post .posthead {
+	margin-left: 17em;
 	}
 
 .brd .posthead .hn {
-	padding-right: 1.5em;
+	padding-right: 1.143em;
 	padding-left: 1em;
 	border-style: none none dashed none;
 	border-width: 1px;
@@ -1583,6 +1592,12 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	position: relative;
 	left: -1px;
 	overflow: hidden;
+	}
+
+#brd-postdelete .post .posthead .post-byline,
+#brd-post .post .posthead .post-byline {
+	margin-left: -18em;
+	width: 14.5em;
 	}
 
 .brd .posthead .post-num {
@@ -1633,6 +1648,11 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	border-left-width: 1px;
 	padding: 0.5em 1.5em 0 1em;
 	clear: both;
+	}
+
+#brd-postdelete .postbody,
+#brd-post .postbody {
+	margin-left: 17em;
 	}
 
 .brd .postfoot {
@@ -1719,7 +1739,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	}
 
 .brd .postfoot .post-actions {
-	padding: 0.5em 1.5em 0.5em 1em;
+	padding: 0.5em 1.143em 0.5em 1em;
 	text-align: right;
 	display: block;
 	float: right;

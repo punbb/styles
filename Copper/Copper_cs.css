@@ -78,7 +78,7 @@ body {
 		color: #0b63d0;
 		}
 		.brd .main-content a:hover {
-			color: #7DC8ED;
+			color: #2da4ff;
 		}
 .brd .main-pagepost {
 	background: #28669F;
@@ -167,7 +167,7 @@ body {
 	font-weight: bold;
 	}
 
-.brd .post * {
+.brd .post *, .brd .entry-content .sig-content {
 	border-color: #EFF7FA;
 	color: #636161;
 	}
@@ -175,14 +175,13 @@ body {
 	background: url(offline.gif) left no-repeat;
 	}
 .brd .postbody .author-ident .usertitle span,
-.brd .entry-content p{
+.brd .entry-content * {
 	color: #000;
 	}
 
 .brd .post {
-	/*border-color: #DDE4EB;*/
-	border-top-color: #8CAEBF;
-	/*border-bottom-color: #ccc;*/
+	border-color: #DDE4EB;
+	/* border-top-color: #8CAEBF; */
 	}
 
 #topic-review .firstpost, .brd .singlepost {
@@ -264,7 +263,7 @@ body {
 	}
 
 .brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box, .brd #admin-alerts {
-	background: #fcfbe9;
+	background: #FFF6E5;
 	border-color: #F4EBCE;
 	}
 
@@ -322,7 +321,7 @@ body {
 	}
 
 .brd .paging * {
-	border-color: #dedfdf;
+	border-color: #aaa;
 	}
 
 
@@ -593,3 +592,7 @@ body {
 #brd-access a:hover, #brd-access a:active, #brd-access a:focus {
 	background: #000;
 	}
+
+.brd span.sig-line {
+	border-color: #dcd8d8;
+}
