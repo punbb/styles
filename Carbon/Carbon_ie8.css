@@ -1,0 +1,11 @@
+/*************************************************************
+IE8 - FIXES
+**************************************************************/
+
+/* Forms
+-------------------------------------------------------------*/
+
+.brd .checklist .checklist-item input, .brd .main-item li.info-select input, .brd .posthead p.item-select input,
+.brd .sf-set .checkbox input, .brd .mf-item input{
+	background: #000;
+}
