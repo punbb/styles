@@ -6,19 +6,19 @@
 <!-- forum_head -->
 </head>
 <body>
-		
+
 <div id="h100">
-	
+
 	<div id="brd-wrap" class="brd">
-	
+
 		<div <!-- forum_page -->>
 		
 		<div id="brd-navlinks" class="gen-content">
 			<!-- forum_navlinks -->
 			<!-- forum_admod -->
 		</div>
-		
-		<div id="brd-head-bg">	
+
+		<div id="brd-head-bg">
 			<div id="brd-head-bgright">
 				<div id="brd-head" class="gen-content">
 					<!-- forum_skip -->
@@ -32,13 +32,13 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="ann-wrap"><div class="ann-wr1"><div class="ann-wr2">
 			<!-- forum_announcement -->
 		</div></div></div>
-		
+
 		<div class="hr"><hr /></div>
-		
+
 		<div id="brd-main">
 			<!-- forum_main_title -->
 			<!-- forum_crumbs_top -->
@@ -49,18 +49,19 @@
 			<!-- forum_crumbs_end -->
 		</div>
 		<!-- forum_qpost -->
-		
-		<!-- forum_info -->
-		
+
+		<div id="brd-info">
+			<!-- forum_info -->
+		</div>
+
 		<div id="brd-about" class="gen-content"><div class="inner">
-			
 			<!-- forum_about -->
 		</div></div>
-		
+
 		<!-- forum_debug -->
-		
+
 		</div>
-		
+
 	</div><!-- /brd-wrap -->
 
 </div><!-- /h100 -->

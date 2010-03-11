@@ -159,7 +159,7 @@ B - GLOBAL STYLES
 .brd .main-category,
 .brd .main-topic {
 	padding: 0;
-}
+	}
 
 #brd-redirect, #brd-maint, #brd-util {
 	margin: 50px auto 12px auto;
@@ -177,7 +177,7 @@ B - GLOBAL STYLES
 	}
 #brd-head-bg {
 	padding-left: 5px;
-}
+	}
 
 #brd-visit {
 	border: 0;
@@ -210,7 +210,16 @@ B - GLOBAL STYLES
 	#brd-announcement {
 		border: 0;
 		font-size: 1.167em;
+		padding-bottom: 1px;
 		}
+		#brd-announcement .content {
+			margin: 0 0 0.5em;
+			padding: 0.5em 0 0;
+			}
+			#brd-announcement .content p {
+				padding: 0;
+				margin: 0 0 0.5em;
+				}
 
 .brd #brd-announcement br {
 	display: inline;
@@ -220,7 +229,7 @@ B - GLOBAL STYLES
 	border-top: none;
 	margin: -1.167em 0;
 	padding-bottom: 1.167em;
-}
+	}
 
 /* Content Text (Default spacing for paragraphs and lists)
 -------------------------------------------------------------*/
@@ -370,7 +379,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 .brd .extension .options, .brd .hotfix .options {
 	border-top-style:dashed;
 	border-top-width:1px;
-}
+	}
 
 /* Content Containers
 -------------------------------------------------------------*/
@@ -382,10 +391,6 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	padding: 0.5em 1em;
 	position: relative;
 	}
-	
-/*.brd .warn-box {
-	padding: 0.5em 0;
-}*/
 
 .brd #brd-admin-groups .ct-box,
 .brd .extension  .ct-box{
@@ -760,16 +765,25 @@ D - COMMON INTERFACE ELEMENTS
 /* Statistics
 -------------------------------------------------------------*/
 
+#brd-info {
+	position: relative;
+	margin: 1em 6.334em;
+	}
+
 #brd-stats, #brd-online {
-	margin-left: 6.334em;
-	margin-right: 6.334em;
 	padding-left: 0;
 	padding-right: 0;
 	border: 0;
-}
+	}
+
+#brd-online {
+	padding-bottom: 4em;
+	}
 
 #brd-stats {
-	margin-top: 4em;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	}
 
 #brd-stats ul {
@@ -777,37 +791,27 @@ D - COMMON INTERFACE ELEMENTS
 	padding-left: 0;
 	line-height: 1.2;
 	}
-
-#brd-stats ul li, #brd-online .hn, #brd-online p {
-	font-size: 1.167em;
-}
-
-#brd-stats ul li.st-users {
-	float: left;
-	clear: both;
-	white-space: nowrap;
-	}
-
-#brd-stats ul li.st-activity {
-	text-align: right;
-	display: block;
-	white-space: nowrap;
-	}
-
-#brd-stats li  strong {
-	font-weight: bold;
-	}
-
-#brd-online {
-	position: relative;
-	top: -5.0em;
-	padding-bottom: 0.143em;
-	margin-bottom: -0.5em;
-	}
+	#brd-stats ul li {
+		font-size: 1.167em;
+		}
+	#brd-stats ul li.st-users {
+		float: left;
+		clear: both;
+		white-space: nowrap;
+		}
+	#brd-stats ul li.st-activity {
+		text-align: right;
+		display: block;
+		white-space: nowrap;
+		}
+	#brd-stats li  strong {
+		font-weight: bold;
+		}
 
 #brd-online .hn, #brd-online p {
 	padding-bottom: 0;
 	padding-top: 0;
+	font-size: 1.167em;
 	}
 
 #brd-online .hn {
@@ -847,6 +851,10 @@ D - COMMON INTERFACE ELEMENTS
 	#brd-about #copyright {
 		margin-top: 0;
 		}
+
+#extensions-used {
+	border-bottom: 1px dotted;
+	}
 
 #querytime {
 	font-size: 0.8em;
@@ -1579,7 +1587,6 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 .brd .post .posthead .post-byline strong {
 	font-size: 1.167em;
 	font-weight: bold;
-	text-decoration: none;
 	font-style: normal;
 	}
 
@@ -1760,7 +1767,8 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	padding-bottom: 1em;
 	overflow: hidden;
 	width: 100%;
-	font-size: 1.084em;
+	font-size: 1.071em;
+	line-height: 1.4;
 	}
 
 .brd .entry-content ol {

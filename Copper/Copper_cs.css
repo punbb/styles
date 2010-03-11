@@ -109,6 +109,10 @@ body {
 			color: #fff;
 			}
 
+#extensions-used {
+	border-bottom-color: #666;
+	}
+
 #querytime {
 	color: #aaa;
 	background: #112a49;
@@ -389,7 +393,9 @@ body {
 	.brd .admin-submenu a:link, .brd .admin-submenu a:visited {
 		color: #0B63D0;
 		}
-		.brd .admin-submenu a:hover{
+		.brd .admin-submenu a:hover,
+		.brd .admin-submenu .active a:visited,
+		.brd .admin-submenu .active a:link {
 			color: #FFF;
 			}
 .brd .main-menu a:link,
@@ -581,8 +587,8 @@ body {
 #brd-stats li strong {
 	color: #FFF;
 	}
-#brd-online {
-	border-bottom: 1px solid #5C7F9F;
+#brd-stats {
+	border-top: 1px solid #5C7F9F;
 	}
 
 #brd-access {
