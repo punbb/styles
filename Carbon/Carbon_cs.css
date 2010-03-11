@@ -7,16 +7,16 @@ body {
 	}
 
 .brd a:link, .brd a:visited {
-	color: #7a51ad;
+	color: #951;
 	}
 
 .brd p.feed a:link, .brd p.feed a:visited {
-	color: #DDDDDD;
+	color: #ddd;
 	}
 
 .brd a:hover, .brd a:active, .brd a:focus,
 .brd p.feed a:hover, .brd p.feed a:active, .brd p.feed a:focus {
-	color: #b42000;
+	color: #c72;
 	text-decoration: none;
 	}
 
@@ -48,7 +48,17 @@ body {
 	color: #548a40;
 	}
 .brd .item-subject a:hover {
-	color: #b42000;
+	color: #a62;
+	}
+
+.brd .sf-set label span,
+.brd .mf-set legend span,
+.brd .txt-set label span,
+.brd .ct-box .hn span,
+.brd #brd-admin-ranks .frm-hdgroup .mf-set legend span,
+.brd .ct-box .hn,
+.brd .user-ident strong {
+	color: #548A40;
 	}
 
 .brd .main-content .main-item .item-nav {
@@ -75,10 +85,7 @@ body {
 .brd .post .posthead .post-byline a {
 	color: #548A40;
 	}
-.brd .post .posthead .post-byline a:hover {
-	color: #b42000 ;
-	}
-	
+
 .brd .entry-content {
 	color: #C3C2C2;
 	}
@@ -103,12 +110,12 @@ body {
 	color: #999;
 	}
 
-.brd .resultpost .post-title a{
-	color:#548A40;
+.brd .resultpost .post-title a {
+	color: #548A40;
 	}
 
-.brd .resultpost .post-title a:hover{
-	color: #b42000;
+.brd .resultpost .post-title a:hover {
+	color: #a91;
 	}
 
 .brd .online .userstatus span {
@@ -117,7 +124,7 @@ body {
 
 .brd .ct-box, .brd .ct-set, .brd .ct-group, .brd .frm-group {
 	border-color: #4E5052;
-	color: #989;
+	color: #ddd;
 	}
 
 .brd .info-box, .brd .main-message .user-box  {
@@ -127,7 +134,7 @@ body {
 .brd .admin-page .ct-box {
 	background: #001900;
 	border-color: #548a40;
-	color: #6a6;
+	color: #aaa;
 	}
 
 .brd .admin-page .ct-set .ct-box, .brd .report {
@@ -143,36 +150,50 @@ body {
 	}
 
 .brd .main-content .important strong {
-	color:#548A40;
+	color: #548A40;
 	}
-	
+
 .brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
 	background: #000;
 	border-color: #4e5052;
-	color: #6a6;
+	color: #ddd;
 	}
 
-.brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
-	background: #FFFFE1;
+.brd .ct-box.extension.disabled .hn span, .brd .main-hotfixes .disabled .hn {
+	color: #666;
+	text-decoration: line-through;
 	}
 
-.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box, .brd #admin-alerts, .brd .admin-page .warn-box {
-	background: #26123e;
-	border-color: #7A51AD;
-	color:#C3C2C2;
+.brd .warn-group,
+.brd .warn-set,
+.brd .warn-box,
+.brd .error-box,
+.brd #admin-alerts,
+.brd .admin-page .warn-box {
+	background: #200;
+	border-color: #a51;
+	color: #ccc;
 	}
 
-.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box {
-	border-color: #7A51AD;
+.brd .warn-group,
+.brd .warn-set,
+.brd .warn-box,
+.brd .error-box {
+	border-color: #a51;
 	}
 
 .brd ul.info-list li {
 	color: #6a6;
 	}
-.brd ul.error-list li {
-	color: #7a51ad;
+.brd ul.info-list li span {
+	color: #ddd;
 	}
-
+.brd ul.error-list li.warn {
+	color: #a91;
+	}
+.brd ul.error-list li span {
+	color: #ddd;
+	}
 .brd .ct-box .hn, .brd .ct-box .sig-demo {
 	border-color: #333;
 	color: #C3C2C2;
@@ -187,9 +208,13 @@ body {
 	}
 
 .brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-legend * {
-	color: #C3C2C2;
+	color: #ddd;
 	}
 
+.brd .frm-hdgroup .mf-set legend span, .brd .mf-set .checklist legend span, .brd .ct-box .warn{
+	color:#ddd;
+	}
+	
 .brd .paging * {
 	border-color: #dedfdf;
 	}
@@ -201,7 +226,7 @@ body {
 	color: #548A40;
 	}
 .brd .warn strong{
-	color: #7a51ad;
+	color: #b24000;
 	}
 .brd .entry-content .quotebox, .brd .entry-content .codebox {
 	border-color: #141;
@@ -308,7 +333,7 @@ body {
 	}
 
 #brd-admod #alert a:hover {
-	color: #b42000;
+	color: #a91;
 	}
 
 /* Logo and Headings
@@ -347,7 +372,7 @@ body {
 	background: url(bg_main_foot_left.gif) bottom left repeat-y;
 	}
 .brd #brd-announcement h1 {
-	color: #7A51AD;
+	color: #951;
 	}
 
 .brd .main-subhead {
@@ -367,7 +392,7 @@ body {
 
 .brd .content-head .hn {
 	border-color: #4E5052;
-	color: #6b6;
+	color: #ddd/*6b6*/;
 	}
 
 .brd .main-head a:link, .brd .main-head a:visited,
@@ -402,8 +427,11 @@ textarea, select, input, fieldset {
 	color: #C3C2C2;
 	}
 
-.brd .checklist .checklist-item input, .brd .main-item li.info-select input, .brd .posthead p.item-select input,
-.brd .sf-set .checkbox input, .brd .mf-item input{
+.brd .checklist .checklist-item input,
+.brd .main-item li.info-select input,
+.brd .posthead p.item-select input,
+.brd .sf-set .checkbox input,
+.brd .mf-item input{
 	background: #fff;
 	color: #548A40;
 	border: none;
@@ -465,5 +493,5 @@ input[type=submit]:active {
 	}
 
 .brd .help-box .hn {
-	color: #294F6E
+	color: #ddd;
 	}

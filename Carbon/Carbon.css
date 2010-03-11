@@ -166,12 +166,12 @@ B - GLOBAL STYLES
 	padding: 0.1em 0;
 	}
 #brd-visit {
-	padding:0.5em 1.5em;
-	border:none;
+	padding: 0.5em 1.5em;
+	border: none;
 	}
 .brd #brd-announcement {
-	padding: 0.5em 1.5em;
-	margin: 1em 0.5em;
+	padding: 0.5em;
+	margin: 1em;
 	border-width:1px;
 	border-style:solid none;
 	}
@@ -598,8 +598,8 @@ D - COMMON INTERFACE ELEMENTS
 #brd-admod {
 	float: right;
 	text-align: right;
-	padding-right:1.5em;
-	margin-top:-2em;
+	padding-right: 1.5em;
+	margin-top: -2.6em;
 	}
 
 #brd-admod span {
@@ -766,7 +766,7 @@ D - COMMON INTERFACE ELEMENTS
 	border: none;
 	}
 
-#brd-about #copyright {
+#brd-about p {
 	text-align: right;
 	margin: 0;
 	}
@@ -1206,8 +1206,8 @@ textarea, select, input, fieldset {
 
 .brd .sf-set .checkbox input {
 	margin: 0.2em 0.5em 0.2em 0;
-	height: 1.55em;
-	width: 1.55em;
+/*	height: 1.55em;
+	width: 1.55em;*/
 	}
 
 .brd .sf-set .text input:not([title]) { /* Fixes alignment issue in Safari */
@@ -1270,8 +1270,8 @@ textarea, select, input, fieldset {
 
 .brd .mf-item input {
 	margin: 0.2em 0.5em 0.2em 0;
-	height: 1.55em;
-	width: 1.55em;
+/*	height: 1.55em;
+	width: 1.55em;*/
 	}
 
 .brd .mf-item label {
@@ -1373,8 +1373,8 @@ textarea, select, input, fieldset {
 
 .brd .checklist .checklist-item input {
 	margin: 0.2em 0.5em;
-	height: 1.55em;
-	width: 1.55em;
+/*	height: 1.55em;
+	width: 1.55em;*/
 	}
 
 

@@ -44,7 +44,11 @@ IE6 - FIXES
 .brd .postfoot .post-contacts {
 	position: absolute;
 	}
-	
+
+
+.brd {
+	width: expression(document.body.clientWidth > 700 ? "90%" : "700px");
+}	
 /* Main menu
 -------------------------------------------------------------*/
 #brd-navlinks li {
@@ -105,7 +109,7 @@ IE6 - FIXES
 #brd-modtopic .main-foot p.options,
 #brd-searchposts .main-foot p.options,
 #brd-searchtopics .main-foot p.options{
-	background: url(bg_main_foot_right.gif) bottom right repeat-y;
+	background: url(bg_main_foot_right.gif) bottom right no-repeat;
 	}
 #brd-viewforum .main-head p.options,
 #brd-modforum .main-head p.options,
@@ -113,7 +117,7 @@ IE6 - FIXES
 #brd-modtopic .main-head p.options,
 #brd-searchposts .main-head p.options,
 #brd-searchtopics .main-head p.options{
-	background: url(bg_main_head_right.gif) top right repeat-y;
+	background: url(bg_main_head_right.gif) top right  no-repeat;
 	}
 #brd-viewforum .main-head .hn,
 #brd-modforum .main-head .hn,
