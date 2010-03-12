@@ -496,7 +496,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	font-size: 1.084em;
 	float: left;
 	display: inline;
-	padding:0.461em 0 0.461em 1.231em;
+	padding: 0.461em 0 0.461em 1.385em;
 	}
 
 .brd .main-menu a, .brd .admin-menu a {
@@ -638,12 +638,13 @@ D - COMMON INTERFACE ELEMENTS
 
 #brd-visit #welcome {
 	float: left;
+	padding: 0;
 	}
 
 #brd-visit #visit-links {
 	text-align: right;
 	float: right;
-	padding:0;
+	padding: 0;
 	}
 
 /* Paging and posting
@@ -873,11 +874,11 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 
 .brd .item-summary .info-lastpost {
 	margin-left: 100%;
-	left: 979.2em;
+	left: 978.9em;
 	}
 
 .brd p.forum-noview .info-replies {
-	left: 971.2em;
+	left: 971em;
 	}
 
 /* Content setup generally
