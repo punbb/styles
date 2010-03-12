@@ -23,9 +23,13 @@ body {
 	}
 
 .brd p.feed a:link, .brd p.feed a:visited,
-.brd .main-foot .options a:link, .brd .main-foot .options a:visited {
+.brd .main-foot .options a:link, .brd .main-foot .options a:visited,
+.brd .main-head p.options a {
 	color: #333;
 	}
+	.brd .main-head p.options a:hover{
+		color: #fff;
+		}
 
 .brd a:hover, .brd a:active, .brd a:focus,
 .brd p.feed a:hover, .brd p.feed a:active, .brd p.feed a:focus,
@@ -74,12 +78,20 @@ body {
 	border-color: #DDE4EB;
 	}
 
+.brd .item-summary {
+	color: #444;
+	}
+
 .brd .item-summary .info-topics,
 .brd .item-summary .info-replies,
 .brd .item-summary .info-posts,
 .brd .item-summary .info-views,
 .brd .item-summary .info-lastpost {
 	background: url(bg_dot_vert.gif) repeat-y;
+	}
+
+.brd .main-item li strong {
+	color: #636161;
 	}
 
 .brd .main-content .main-item .item-nav {
@@ -248,6 +260,10 @@ body {
 	background: #f4f4f4;
 	}
 
+.brd .help-box .hn {
+	color: #294F6E
+	}
+
 .brd .frm-buttons, .brd .extension .options, .brd .hotfix .options {
 	border-color: #DBE0E4;
 	}
@@ -259,6 +275,10 @@ body {
 
 .brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-legend * {
 	color: #357;
+	}
+
+.brd .mf-set legend {
+	background: transparent;
 	}
 
 .brd .paging * {
@@ -282,6 +302,11 @@ body {
 .brd .main-content .main-item .hn .posted-mark {
 	color: #99C;
 	}
+
+#brd-stats {
+	border-color: #ccc;
+	}
+
 
 /* Menus
 ----------------------------------------------------------------*/
@@ -385,6 +410,14 @@ body {
 	color: yellow;
 	}
 
+#brd-access {
+	background: transparent;
+	}
+
+#brd-access a:hover, #brd-access a:active, #brd-access a:focus {
+	background: #000;
+	}
+
 /* Logo and Headings
 ----------------------------------------------------------------*/
 
@@ -465,6 +498,10 @@ body {
 
 /* Multi Checkbox Widget
 -------------------------------------------------------------*/
+
+.brd .checklist .checklist-item label {
+	background: #fff;
+	}
 
 .brd .checklist .checklist-item label:hover {
 	background: #EDF1F5;

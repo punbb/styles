@@ -42,7 +42,9 @@
 </div>
 <!-- forum_qpost -->
 
-<!-- forum_info -->
+<div id="brd-info">
+	<!-- forum_info -->
+</div>
 
 <div class="hr"><hr /></div>
 
