@@ -52,22 +52,22 @@ body {
 	}
 
 .brd .even {
-	background: #ecf6fa;
+	background: #f3fbff;
 	}
 
 .brd .ct-group .odd {
 	background: #fff;
-	}	
-	
+	}
+
 .brd .main-item, .brd .main-item li, .brd .main-item div, .brd td {
-	/*border-color: #DDE4EB;*/
+	border-color: #DDE4EB;
 	}
 .brd .item-subject a:link,.brd .item-subject a:visited {
-	color:#8a038f;
+	color: #a4a;
 	}
-	
+
 .brd .item-subject a:hover {
-	color:#b42000;
+	color: #b42000;
 	}
 .brd .main-item li.info-posts,
 .brd .main-item li.info-replies,
@@ -112,10 +112,10 @@ body {
 .brd .entry-content {
 	/*color:#C3C2C2;*/
 	}
-#topic-review .firstpost, .brd .singlepost {
+/* #topic-review .firstpost, .brd .singlepost {
 	border-top-color: #24262A;
 	border-bottom-color: #24262A;
-	}
+	} */
 
 .brd .post {
 	/*background: #000;*/
