@@ -529,7 +529,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	font-size: 1.084em;
 	float: left;
 	display: inline;
-	padding:0.461em 0 0.461em 1.231em;
+	padding: 0.461em 0 0.461em 1.385em;
 	}
 
 .brd .main-menu a, .brd .admin-menu a {
@@ -1955,5 +1955,4 @@ H - MAIN CONTENT - ODDMENTS
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 	margin-bottom: 0.5em;
-	color: #294F6E
 	}
