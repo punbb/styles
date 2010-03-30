@@ -40,7 +40,6 @@ body {
 	}
 
 .brd .gen-content, .brd .main-content {
-	/*background: #fff;*/
 	border-color: #d7f5b4;
 	color:#5e5e5e;
 	}
@@ -63,7 +62,7 @@ body {
 	border-color: #DDE4EB;
 	}
 .brd .item-subject a:link,.brd .item-subject a:visited {
-	color: #a4a;
+	color: #47b;
 	}
 
 .brd .item-subject a:hover {
@@ -77,10 +76,6 @@ body {
 
 .brd .main-content .main-item .item-nav {
 	color: #888;
-	}
-
-.brd .main-content .sticky {
-	/*background: url(bg_main_item_checked.gif) bottom repeat-x;*/
 	}
 
 .brd .main-content .main-item .hn .item-status em.sticky ,
@@ -103,30 +98,10 @@ body {
 	border-bottom-color: #D7F5B4;
 	}
 .brd .post .posthead .post-byline a {
-	color:#8a038f;
+	color:#47b;
 	}
 .brd .post .posthead .post-byline a:hover {
 	color:#b42000 ;
-	}
-	
-.brd .entry-content {
-	/*color:#C3C2C2;*/
-	}
-/* #topic-review .firstpost, .brd .singlepost {
-	border-top-color: #24262A;
-	border-bottom-color: #24262A;
-	} */
-
-.brd .post {
-	/*background: #000;*/
-	}
-
-.brd .posthead, .brd .postbody, .brd .post-options {
-	/*background: #000;*/
-	}
-
-.brd .posthead .hn {
-	/*background: #000;*/
 	}
 
 .brd .posthead .post-title small {
@@ -140,24 +115,21 @@ body {
 .brd .resultpost .post-title a:hover{
 	color:#b42000;
 	}
-		
+
 .brd .online .userstatus span {
 	border-color: #517CA1;
 	}
 
 .brd .ct-box, .brd .ct-set, .brd .ct-group, .brd .frm-group {
 	border-color: #D7F5B4;
-	/*color: #989;*/
 	}
 
 .brd .info-box, .brd .main-message .user-box  {
-	/*color: #C3C2C2;*/
 	border-color: #D7F5B4;
 	}
 .brd .admin-page .ct-box {
 	background:#FFF6D5;
 	border-color: #D7F5B4;
-
 	}
 
 .brd .admin-page .ct-set .ct-box, .brd .report {
@@ -165,11 +137,7 @@ body {
 	color:#696969;
 	}
 
-.brd .admin-page .warn-set .warn-box {
-
-	}
-
-/*.brd .main-frm .ct-group, */.brd #brd-announcement {
+.brd #brd-announcement {
 	background:#fff6d5;
 	}
 
@@ -180,7 +148,7 @@ body {
 .brd .main-content .important strong {
 	color:#416A11;
 	}
-	
+
 .brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
 	background: #fff;
 	border-color:#D7F5B4;
@@ -194,18 +162,10 @@ body {
 .brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box, .brd #admin-alerts, .brd .admin-page .warn-box {
 	background: #FFF6D5;
 	border-color: #8A038F;
-	/*color:#C3C2C2;*/
 	}
 
 .brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box {
 	border-color: #8A038F;
-	}
-
-.brd ul.info-list li {
-	color: #D7F5B4;
-	}
-.brd ul.error-list li {
-	color: #8A038F;
 	}
 
 .brd ul.error-list li span, .brd ul.info-list li span {
@@ -213,23 +173,13 @@ body {
 	}
 
 .brd ul li strong {
-	/*color: #333;*/
 	}
 
 .brd .user-box {
-	background: #F4F9FD;
+	background: #F4FDFD;
 	}
 .brd .ct-box .hn, .brd .ct-box .sig-demo {
 	border-color: #DBE0E4;
-	/*color: #C3C2C2;*/
-	}
-
-.brd .error-box .hn {
-
-	}
-
-.brd .help-box {
-
 	}
 
 .brd .frm-buttons, .brd .extension .options, .brd .hotfix .options {
@@ -239,19 +189,10 @@ body {
 .brd .checklist {
 	border-color: #e0dfe3;
 	}
-	
-.brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-legend * {
-	/*color: #C3C2C2*/;
-	}
-	
-.brd .mf-set .checklist legend, .brd .mf-set .checklist label  {
 
-	} 
-	
 .brd .paging * {
 	border-color: #dedfdf;
 	}
-
 
 .brd #req-msg em, .brd .warn strong, .brd .important strong {
 	color: #8A038F;
@@ -278,19 +219,9 @@ body {
 ----------------------------------------------------------------*/
 
 #brd-navlinks {
-	/*background: url(bg_navlinks.gif) repeat-x bottom;*/
 	color: #fff;
 	background:none;
 	border-color:#27B5ED;
-	}
-
-#brd-navlinks ul {
-	/*background:url(bg_navlinks_right.gif) right bottom no-repeat;*/
-	/*border-color:#27b5ed;*/
-	}
-	
-#brd-navlinks li {
-	/*border-color:#000;*/
 	}
 
 #brd-navlinks li.isactive {
@@ -299,13 +230,13 @@ body {
 	#brd-navlinks li.isactive a {
 		background:url(bg_navlinks_right.gif) bottom right no-repeat;
 		}
-	
+
 #brd-navlinks a:link, #brd-navlinks a:visited {
 	color: #fff;
 	}
 	#brd-navlinks .isactive a:link, #brd-navlinks .isactive a:visited {
 		color: #fff;
-		}	
+		}
 
 #brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus {
 	color: #fff;
@@ -314,10 +245,6 @@ body {
 
 .brd .main-options, .brd .main-options span {
 	background: #D7F5B4;
-	}
-	
-.brd .main-options, .brd .main-options span {
-	/*background: #DDE4EB;*/
 	}
 
 .brd .main-menu, .brd .admin-menu {
@@ -329,9 +256,6 @@ body {
 	}
 .brd .main-menu li.first-item, .brd .admin-menu li.first-item {
 	background:transparent url(bg_main_head_left.gif) no-repeat left top;
-	}
-.brd .admin-submenu {
-
 	}
 
 .brd .main-menu a:link,
@@ -397,7 +321,7 @@ body {
 .brd .main-head, .brd .main-foot {
 	background: #99c860;
 	color: #fff;
-	border-color: #d7f5b4;/**/
+	border-color: #d7f5b4;
 	}
 .brd .main-head {
 	background:#99c860 url(bg_main_head_top.gif) top repeat-x;
@@ -410,7 +334,7 @@ body {
 	}
 .brd .main-foot {
 	background:#99c860 url(bg_main_foot.gif) bottom repeat-x;
-	}	
+	}
 .brd .main-foot .hn {
 	background:url(bg_main_foot_right.gif) bottom right no-repeat;
 	}
@@ -455,48 +379,18 @@ body {
 	color: #fff;
 	}
 
-.brd th {
-	/*background: #000;*/
-	/*color:#C3C2C2;*/
-	}
-
 .brd .main-frm .ct-group td {
-	/*background: #000;*/
 	border-color:#D7F5B4;
 	}
 
 #extensions-used {
 	border-bottom-color: #999;
-}
-
-/* Input fields
-----------------------------------------------------------------*/
-/*textarea, select, input, fieldset {
-	background:#000;
-	border-color:#4e5052;
-	color:#C3C2C2;
-}
-.brd .checklist .checklist-item input, .brd .main-item li.info-select input, .brd .posthead p.item-select input,
-.brd .sf-set .checkbox input, .brd .mf-item input{
-	background:#fff;
-	color:#416A11;
-	border: none;
-}
-.brd .frm-buttons input, .brd .frm-input input,.brd span.submit input, .brd span.cancel input {
-	background: #2b4720;
-	border: 1px outset #040;
-	outline: 1px outset #020;
-	cursor: pointer;
 	}
 
-.brd .frm-buttons input:active,
-.brd .frm-input input:active,
-.brd span.submit input:active,
-.brd span.cancel input:active {
-	background: #2b4720;
-	border: 1px inset #050;
-	outline: 1px inset #030;
-	}*/
+.brd .help-box .hn {
+	color: #294F6E
+	}
+
 /* Status indicators
 ----------------------------------------------------------------*/
 

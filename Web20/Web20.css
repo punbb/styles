@@ -144,7 +144,6 @@ body {
 }
 
 .brd {
-	/* height: 100%; */
 	min-height: 100%;
 	margin: 0 auto;
 	max-width: 1100px;
@@ -184,10 +183,8 @@ body {
 	width: 60%;
 	}
 
-.brd-page { /* Confines clearing behaviour within forum wrapper */
-/* 	float: left; */
+.brd-page {
 	width: 100%;
-/* 	position: relative; */
 	}
 
 .brd .main-content {
@@ -232,7 +229,7 @@ body {
 -------------------------------------------------------------*/
 
 .brd p, .brd .hn {
-	padding: /* 0.5em */ 0;
+	padding: 0;
 	}
 	.brd .post p, .brd .post .hn {
 		padding: 0.5em 0;
@@ -262,11 +259,11 @@ body {
 	}
 
 .brd .main-head, .brd .main-foot {
-	border-width: 1px;/**/
+	border-width: 1px;
 	}
 	.brd .main-head {
 		border:none;
-	}
+		}
 
 .brd .main-head .hn, .brd .main-foot .hn {
 	font-size: 1.084em;
@@ -448,7 +445,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 	}
 
 .brd .ct-box div {
-	padding: 0.5em 0;
+	padding: 0;
 	}
 	
 .brd .ct-box div.warn-box {
@@ -609,37 +606,30 @@ D - COMMON INTERFACE ELEMENTS
 	
 #brd-navlinks ul {
 	margin: 0 auto;
-	padding:0;
-	display:inline;
-	/*border-style: solid none none none;
-	border-width:4px;*/
+	padding: 0;
+	display: inline;
 	}
 
 #brd-navlinks li {
 	display: inline-block;
-	padding:0;
+	padding: 0;
 	}
-	#brd-navlinks li#navindex{
-		/*padding-left:2.5em;*/
-		}
 
 #brd-navlinks li a {
 	font-size: 1.167em;
 	text-decoration: none;
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1em;
 	padding: 0.2em 1em 0.5em;
-	display:block;
-/*	float:left; */
+	display: block;
 	}
 
 #brd-admod {
 	float: right;
 	text-align: right;
-	padding-right:1.5em;
-	padding-top:0.5em;
-	/*margin-top:-2em;*/
+	padding-right: 1.5em;
+	padding-top: 0.5em;
 	}
 
 #brd-admod span {
@@ -955,8 +945,6 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 .brd .main-content .main-item .item-subject,
 .brd .main-content .main-item li {
 	float: left;
-	/*border-left-style: solid;
-	border-left-width: 1px;*/
 	margin: 0 0 -9.7em 0;
 	position: relative;
 	padding-top: 0.6em;
@@ -1001,7 +989,6 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 .brd .main-content .main-item {
 	padding-right: 35em;
 	padding-left: 2.75em;
-	/*margin:0em 0.2em 1em 0.8em;*/
 	}
 
 .brd .main-content .main-item .hn {
@@ -1102,7 +1089,7 @@ E - INDEX, FORUMS, SEARCH RESULTS, MODERATE FORUMS
 	height: 12px;
 	width: 11px;
 	float: left;
-	margin-top: 1em;
+	margin-top: 0.917em;
 	margin-left: -1.4em;
 	}
 
@@ -1119,10 +1106,6 @@ F - MAIN CONTENT - FORMS
 
 /* Generally
 -------------------------------------------------------------*/
-textarea, select, input, fieldset {
-/*	border-style:solid;
-	border-width:1px*/
-	}
 .brd .frm-group {
 	border-top-style: dotted;
 	border-top-width: 1px;
@@ -1165,11 +1148,6 @@ textarea, select, input, fieldset {
 	border-top-style: double;
 	border-top-width: 3px;
 	padding: 0.8em 0pt 0.3em 18em;
-	}
-	
-.brd .frm-buttons input, .brd .frm-input input,.brd span.submit input, .brd span.cancel input {
-	/*border-style: outset;
-	border-width:2px;*/
 	}
 
 .brd .frm-buttons span.submit {
@@ -1240,8 +1218,6 @@ textarea, select, input, fieldset {
 
 .brd .sf-set .checkbox input {
 	margin: 0.2em 0.5em 0.2em 0;
-/*	height: 1.55em;
-	width: 1.55em;*/
 	}
 
 .brd .sf-set .text input:not([title]) { /* Fixes alignment issue in Safari */
@@ -1304,8 +1280,6 @@ textarea, select, input, fieldset {
 
 .brd .mf-item input {
 	margin: 0.2em 0.5em 0.2em 0;
-/*	height: 1.55em;
-	width: 1.55em;*/
 	}
 
 .brd .mf-item label {
@@ -1343,11 +1317,6 @@ textarea, select, input, fieldset {
 .brd .frm-hdgroup {
 	padding-top: 2em;
 	}
-
-/*.brd .frm-hdgroup .set1 {
-	border-top-style: solid;
-	border-top-width: 1px;
-	}*/
 
 .brd .sf-set .sf-box .sf-forum {
 	width: 25em;
@@ -1407,8 +1376,6 @@ textarea, select, input, fieldset {
 
 .brd .checklist .checklist-item input {
 	margin: 0.2em 0.5em;
-/*	height: 1.55em;
-	width: 1.55em;*/
 	}
 
 
@@ -1662,7 +1629,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	}
 .brd .postbody .author-info li span strong {
 	font-weight: normal;
-}
+	}
 .brd .online .author-ident .userstatus span {
 	font-weight: bold;
 	}
