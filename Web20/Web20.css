@@ -1492,7 +1492,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	}
 
 .brd .posthead .hn {
-	padding: 0.5em 1.5em 0.5em 1em;
+	padding: 0.5em 1.333em 0.5em 1em;
 	border-style: none none dashed none;
 	border-width: 1px;
 	}
@@ -1645,7 +1645,7 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 	}
 
 .brd .postfoot .post-actions {
-	padding: 0.5em 1.5em 0.5em 1em;
+	padding: 0.5em 1.333em 0.5em 1em;
 	text-align: right;
 	display: block;
 	float: right;
@@ -1672,6 +1672,10 @@ G - MAIN CONTENT - TOPICS AND PARSED CONTENT
 .brd .entry-content ol {
 	padding-left: 2.5em;
 	list-style-type: decimal;
+	}
+
+.brd .entry-content p {
+	padding: 0.5em 0;
 	}
 
 .brd .entry-content ol p,
