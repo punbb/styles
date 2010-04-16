@@ -765,25 +765,18 @@ D - COMMON INTERFACE ELEMENTS
 /* Statistics
 -------------------------------------------------------------*/
 
-#brd-info {
-	position: relative;
-	margin: 1em 6.334em;
-	}
 
 #brd-stats, #brd-online {
+	margin: 0.5em 6.334em;
 	padding-left: 0;
 	padding-right: 0;
 	border: 0;
 	}
 
 #brd-online {
-	padding-bottom: 4em;
-	}
-
-#brd-stats {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-top: 0.25em;
 	}
 
 #brd-stats ul {

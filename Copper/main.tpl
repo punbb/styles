@@ -50,9 +50,7 @@
 		</div>
 		<!-- forum_qpost -->
 
-		<div id="brd-info">
-			<!-- forum_info -->
-		</div>
+		<!-- forum_info -->
 
 		<div id="brd-about" class="gen-content"><div class="inner">
 			<!-- forum_about -->

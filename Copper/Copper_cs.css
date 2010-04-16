@@ -587,8 +587,8 @@ body {
 #brd-stats li strong {
 	color: #FFF;
 	}
-#brd-stats {
-	border-top: 1px solid #5C7F9F;
+#brd-online {
+	border-color: #5C7F9F;
 	}
 
 #brd-access {
