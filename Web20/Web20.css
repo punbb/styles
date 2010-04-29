@@ -454,6 +454,7 @@ C - COMMON CONTENT TYPES (RE-USABLE FORMATS)
 
 .brd .ct-box p.options {
 	float: none;
+	padding: 0;
 	}
 
 .brd .ct-box .info-list {
